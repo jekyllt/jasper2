@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   {% if page.grouptype == 'category' %}
+      <title>{{ site.short_url }} - Category: {{ page.category }}</title>
+   {% else %}
+      <title>{{ site.short_url }}</title>
+   {% endif %}
+   <link>{{ site.url }}</link>
+   <description>{{ site.description }}</description>
+   <language>{{ site.language }}</language>
+   <managingEditor> {{ site.author[1].username }}</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   {{content}}
+</channel>
+</rss>
