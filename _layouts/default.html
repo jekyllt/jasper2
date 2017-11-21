@@ -6,32 +6,14 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- dynamically fixing the title for tag/author pages -->
-    {% if page.url %}
-        {% if page.url contains "tag/" %}
-            {% assign title = page.url | remove: 'tag' | remove: '/' | replace: '-', ' ' | capitalizeall %}
-        {% elsif page.url contains "author/" %}
-            {% assign author = page.url | remove: 'author' | remove: '/' | replace: '-', ' ' %}
-            {% for author in site.authors %}
-                {{ author[0].username }}
-                {% if author[1].username == author %}
-                    {{ author[1].name }}
-                    {% assign title = author[1].name %}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endif %}
-
-    {{ author }}: {{ title }}
-    {% assign title = title | append: ' - ' | append: site.title  %}
-
-    {{ title }}
     <!-- Base Meta -->
+    {% include dynamic_title.html %}
     <title>{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/screen.edited.css" />
     <link rel="stylesheet" type="text/css" href="https://demo.ghost.io/assets/built/screen.css?v=724281a32e" />
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
@@ -44,15 +26,11 @@
 <body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %}">
 
     <div class="site-wrapper">
-
-        {{title}} - {{ page.title }} - {{ site.title }}
-
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
         {{ content }}
 
         <!-- Previous/next page links - displayed on every page -->
         {% if paginator.total_posts > site.paginate %}
-            <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/screen.edited.css" />
             {% if page.class == 'home-template' %}
                 {% include post_pagination.html %}
             {% elsif page.class == 'page-template' %}
@@ -75,8 +53,8 @@
                     <a href="https://github.com/myJekyll/jasper2">Jasper2</a></section>
                 <nav class="site-footer-nav">
                     <a href="{{ site.baseurl }}">Latest Posts</a>
-                    {% if site.facebook %}<a href="{{ site.facebook_url }}{{ site.facebook }}" target="_blank" rel="noopener">Facebook</a>{% endif %}
-                    {% if site.twitter %}<a href="{{ site.twitter_url }}{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
+                    {% if site.facebook %}<a href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">Facebook</a>{% endif %}
+                    {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
                     <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
                 </nav>
             </div>

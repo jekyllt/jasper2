@@ -21,11 +21,11 @@
                     <h2 class="post-card-title">{{ page.next.title }}</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>{{ page.next.content | strip_html | truncatewords: 33 }}</p>
+                    <p>{{ page.next.content | strip_html | truncatewords: 33, "" }}</p>
                 </section>
             </a>
             <footer class="post-card-meta">
-                {% for author in site.authors %}
+                {% for author in site.data.authors %}
                     {% if author[1].username == page.next.author %}
                         {% if author[1].picture %}
                         <img class="author-profile-image" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ author[1].name }}" />

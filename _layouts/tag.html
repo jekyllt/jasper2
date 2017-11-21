@@ -8,19 +8,12 @@ logo: 'assets/images/ghost.png'
 current: tag
 ---
 
-<!-- dynamically loading backgrounds for tags,  descriptions and page titles -->
-{% for tag in site.tags_info %}
-    {% if page.url contains tag[1].name %}
-        {% assign cover = tag[1].cover %}
-        {% assign tag_description = tag[1].description %}
-    {% endif %}
-{% endfor %}
-
 <!-- default -->
 <!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
 <!-- #tag -->
+{% include dynamic_tag_info.html %}
 <header class="site-header outer {% if cover or page.cover %}" style="background-image: url({{ site.baseurl }}{% if cover %}{{ cover }}{% else %}{{ page.cover }}{% endif%}) {% else %}no-cover{% endif %}">
     <div class="inner">
         {% include site-nav.html %}

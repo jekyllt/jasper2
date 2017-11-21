@@ -2,6 +2,7 @@
 layout: default
 disqus: false
 class: post-template
+current: post
 ---
 
 <!-- default -->
@@ -63,7 +64,7 @@ into the {body} of the default.hbs template -->
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
-                {% for author in site.authors %}
+                {% for author in site.data.authors %}
                     {% if author[1].username == page.author %}
                         <section class="author-card">
                             {% if author[1].picture %}
@@ -126,7 +127,7 @@ into the {body} of the default.hbs template -->
                       {% endif %}
                   {% endif %}
                 {% endfor %}
-                {% if related_posts > 0 %}
+                {% if related_posts > 1 %}
                     <article class="read-next-card"
                         {% if site.cover %}
                             style="background-image: url({{ site.baseurl }}{{ site.cover }})"
@@ -150,7 +151,7 @@ into the {body} of the default.hbs template -->
                                     {% if post.title != page.title %}
                                         {% assign count = count | plus: 1 %}
                                         {% if count <= 3 %}
-                                            <li><a href="{{ site.baseul }}{{ post.url | remove: '/' }}/">{{ post.title }}</a></li>
+                                            <li><a href="{{ site.baseurl }}{{ post.url | remove: '/' }}/">{{ post.title }}</a></li>
                                         {% endif %}
                                     {% endif %}
                                   {% endif %}
@@ -160,7 +161,7 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">
                                 {% if related_posts > 1 %}
-                                    See all {{ related_posts }} posts  →
+                                    See all {{ related_posts | minus: 1 }} posts  →
                                 {% elsif related_posts == 1 %}
                                     {{ related_posts }} post  →
                                 {% else %}
@@ -172,14 +173,14 @@ into the {body} of the default.hbs template -->
                 {% endif %}
             {% endif %}
 
-            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            {% if page.previous %}
-                {% include post-card-previous.html %}
-            {% endif %}
-
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             {% if page.next %}
                 {% include post-card-next.html %}
+            {% endif %}
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            {% if page.previous %}
+                {% include post-card-previous.html %}
             {% endif %}
 
         </div>
