@@ -11,7 +11,7 @@ author: ghost
 categories: ghost
 ---
 
-{% raw %}
+
 <p>Ghost has a single, powerful organisational taxonomy, called tags.</p>
 <p>It doesn't matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.</p>
 <h2 id="basictagging">Basic tagging</h2>
@@ -28,6 +28,7 @@ categories: ghost
 <p><mark><strong>News</strong>, Cycling, #video</mark></p>
 <p>Here, the theme would assign the post publicly displayed tags of <code>News</code>, and <code>Cycling</code> - but it would also keep a private record of the post being tagged with <code>#video</code>.</p>
 <p>In your theme, you could then look for private tags conditionally and give them special formatting:</p>
+{% raw %}
 <pre><code class="nohighlight">{{#post}}
     {{#has tag=&quot;#video&quot;}}
         ...markup for a nice big video post layout...
