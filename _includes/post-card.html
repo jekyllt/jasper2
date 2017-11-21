@@ -1,12 +1,12 @@
 {% for post in paginator.posts %}
     <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
         {% if post.cover %}
-            <a class="post-card-image-link" href="{{ site.baseurl }}{{ post.url | remove: '/' }}/">
+            <a class="post-card-image-link" href="{{ site.baseurl }}{{ post.url | remove: '/' }}">
                 <div class="post-card-image" style="background-image: url({{ site.baseurl }}{{ post.cover }})"></div>
             </a>
         {% endif %}
         <div class="post-card-content">
-            <a class="post-card-content-link" href="{{ site.baseurl }}{{ post.url | remove: '/' }}/">
+            <a class="post-card-content-link" href="{{ site.baseurl }}{{ post.url | remove: '/' }}">
                 <header class="post-card-header">
                     {% if post.tags.size > 0 %}
                         {% for tag in post.tags %}
