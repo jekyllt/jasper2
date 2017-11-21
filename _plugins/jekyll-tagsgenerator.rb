@@ -57,7 +57,7 @@ module Jekyll
       @site = site
       @base = base
       @dir = dir
-      @name = 'rss.xml'
+      @name = 'feed.xml'
 
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), "tag.xml")

@@ -5,10 +5,14 @@ title: nil
 {% for post in page.posts %}
 	<item>
 	  <title>{{ post.title }}</title>
-	  <link>{{ site.baseurl }}{{ post.url }}</link>
-	  <author>{{ site.author[1].username }}</author>
+	  <link>{{ site.url }}{{ site.baseurl }}{{ post.url | remove: '/' }}</link>
+		{% for author in site.data.authors %}
+				{% if author[1].username == page.author %}
+						<author>{{ author[1].name }}</author>
+				{% endif %}
+		{% endfor %}
 	  <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-	  <guid>{{ site.baseurl }}{{ post.url }}</guid>
+	  <guid>{{ site.url }}{{ site.baseurl }}{{ post.url | remove: '/' }}</guid>
 	  <description><![CDATA[
 	     {{ post.content | expand_urls : site.url }}
 	  ]]></description>
