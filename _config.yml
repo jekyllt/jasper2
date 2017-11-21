@@ -39,7 +39,7 @@ permalink: /:title
 # Tags' info in `_data/tags_info.yml`
 
 # gems and other configs
-plugins: [jekyll-paginate, jekyll-feed, jekyll-admin]
+plugins: [jekyll-paginate, jekyll-feed]
 exclude: [vendor]
 
 feed:
