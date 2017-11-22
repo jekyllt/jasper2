@@ -5,16 +5,16 @@
 [![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/myJekyll/jasper2)
 
 This is a full-featured port of Ghost's default theme [Casper](https://github.com/tryghost/casper)
-*v2.1.6* for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
+*v2.1.7* for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
 
 ## Live Demo
 
 [Ghost's Casper](https://demo.ghost.io) // [Jasper2](https://myJekyll.github.io/jasper2)
-  
+
 ![home page](https://raw.githubusercontent.com/myJekyll/jasper2/master/assets/screenshot-desktop.jpg)
 
 
-## Features 
+## Features
 
 * Out of the box support for multiple authors (via `_data/authors.yml`)
 * Full author information including: picture, bio, website, twitter, facebook, etc.
@@ -33,45 +33,45 @@ This is a full-featured port of Ghost's default theme [Casper](https://github.co
 
 ### Deployment
 
-**Important:**  For security reasons, Github does not allow plugins (under `_plugins/`) when 
+**Important:**  For security reasons, Github does not allow plugins (under `_plugins/`) when
 deploying with Github Pages. This means:
 
 **1)** that we need to generate your site locally (more details below) and push the resulting
-HTML (the contents of `_site/` or `../jasper2-pages/`) to a Github repository, that GitHub Pages 
+HTML (the contents of `_site/` or `../jasper2-pages/`) to a Github repository, that GitHub Pages
 then host;
 
-**2)** built the site with [travis-ci](https://travis-ci.org/) (with goodies from 
-[jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the 
+**2)** built the site with [travis-ci](https://travis-ci.org/) (with goodies from
+[jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the
 generated HTML files to a *gh-pages* branch.
 This later approach is the one I am currently using to generate the live demo.
 
-For option **1)** simply clone this repository (*master branch*), and then run 
-`bundle exec jekyll serve` inside the directory. Upload the resulting `_site/` (or `../jasper2-pages/`) 
-contents to your repository (*master branch* if uploading as your personal page 
-(e.g. username.github.io) or *gh-pages branch* if uploading as a project page 
+For option **1)** simply clone this repository (*master branch*), and then run
+`bundle exec jekyll serve` inside the directory. Upload the resulting `_site/` (or `../jasper2-pages/`)
+contents to your repository (*master branch* if uploading as your personal page
+(e.g. username.github.io) or *gh-pages branch* if uploading as a project page
 (as for the [demo](https://github.com/myJekyll/jasper2/tree/gh-pages)).
 
-For option **2)** you will need to set up travis-ci for your personal fork. Briefly all you 
-need then is to change your details in *[\_config.yml](_config.yml)* so that you can push 
+For option **2)** you will need to set up travis-ci for your personal fork. Briefly all you
+need then is to change your details in *[\_config.yml](_config.yml)* so that you can push
 to your github repo. You will also need to generate a secure key to add to your
-*[.travis.yml](.travis.yml)* (you can find more info on how to do it in that file). 
+*[.travis.yml](.travis.yml)* (you can find more info on how to do it in that file).
 Also make sure you read the documentation from
 [jekyll-travis](https://github.com/mfenner/jekyll-travis). This approach has clear
-advantages in that you simply push your file changes to GitHub and all the HTML files 
-are generated for you and pushed to *gh-pages*. Also you get to know if everything is 
-still fine with your site builds. Don't hesitate to contact me if you still have any 
+advantages in that you simply push your file changes to GitHub and all the HTML files
+are generated for you and pushed to *gh-pages*. Also you get to know if everything is
+still fine with your site builds. Don't hesitate to contact me if you still have any
 issues (see below about issue tracking).
 
 ### Author Pages
 
-In order to properly generate author pages you need to rename the field *categories* in the 
-front matter of every post to match that of your each author *username* as defined 
+In order to properly generate author pages you need to rename the field *categories* in the
+front matter of every post to match that of your each author *username* as defined
 in the *[\_data/authors.yml](_data/authors.yml)* file.
 With the latest update, multiple author blogs are now supported out of the box.
 
 ## Issues and Contributing
 
-This install builds well with Ruby v2.4.2 and Jekyll v3.6.2. If you run into any problems 
+This install builds well with Ruby v2.4.2 and Jekyll v3.6.2. If you run into any problems
 please log them on the [issue tracker](https://github.com/myJekyll/jasper2/issues).
 
 Feel free pull-request your patches and fixes.
@@ -79,7 +79,7 @@ Feel free pull-request your patches and fixes.
 ## Thanks
 
 
-Many thanks to the Ghost team for all the design work. Also many thanks to all contributors, 
+Many thanks to the Ghost team for all the design work. Also many thanks to all contributors,
 that help keeping the project alive and updated :smile:
 
 
