@@ -1,5 +1,6 @@
 ---
 layout: post
+current: post
 cover: 'assets/images/summit.jpg'
 navigation: True
 title: Looking-Glass house

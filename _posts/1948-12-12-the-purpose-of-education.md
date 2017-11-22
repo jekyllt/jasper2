@@ -1,5 +1,6 @@
 ---
 layout: post
+current: post
 cover: assets/images/grapes.jpg
 navigation: True
 title: The Purpose of Education

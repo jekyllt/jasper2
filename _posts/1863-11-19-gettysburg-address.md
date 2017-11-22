@@ -1,5 +1,6 @@
 ---
 layout: post
+current: post
 cover: assets/images/bus.jpg
 navigation: True
 title: Gettysburg Address

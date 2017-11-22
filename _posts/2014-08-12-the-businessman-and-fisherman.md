@@ -1,5 +1,6 @@
 ---
 layout: post
+current: post
 cover: assets/images/water.jpg
 navigation: True
 title: The Businessman & The Fisherman

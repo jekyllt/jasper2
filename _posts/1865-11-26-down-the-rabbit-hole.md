@@ -1,5 +1,6 @@
 ---
 layout: post
+current: post
 cover: 'assets/images/piano.jpg'
 navigation: true
 title: Down The Rabbit Hole

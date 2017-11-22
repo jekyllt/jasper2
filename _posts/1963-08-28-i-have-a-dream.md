@@ -1,5 +1,6 @@
 ---
 layout: post
+current: post
 cover: assets/images/sky.jpg
 navigation: True
 title: I Have a Dream
