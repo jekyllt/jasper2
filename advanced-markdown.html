@@ -15,9 +15,8 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
-    <link rel="stylesheet" type="text/css" href="/jasper2/assets/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="/jasper2/assets/css/screen.edited.css" />
-    <link rel="stylesheet" type="text/css" href="https://demo.ghost.io/assets/built/screen.css?v=728bdfa5be" />
+    <link rel="stylesheet" type="text/css" href="/jasper2/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/jasper2/assets/built/screen.edited.css" />
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
@@ -181,7 +180,7 @@ into the {body} of the default.hbs template -->
 </ul>
 <h2 id="writingcodeblocks">Writing code blocks</h2>
 <p>There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, <code>like this</code>. Larger snippets of code can be displayed across multiple lines using triple back ticks:</p>
-<pre><code class="nohighlight">.my-link {
+<pre><code>.my-link {
     text-decoration: underline;
 }
 </code></pre>
@@ -190,7 +189,7 @@ into the {body} of the default.hbs template -->
 <p>One neat trick which you can use in Markdown to distinguish between different types of images is to add a <code>#hash</code> value to the end of the source URL, and then target images containing the hash with special styling. For example:</p>
 <p><img src="https://casper.ghost.org/v1.0.0/images/walking.jpg#full" alt="walking"></p>
 <p>which is styled with...</p>
-<pre><code class="nohighlight">img[src$=&quot;#full&quot;] {
+<pre><code>img[src$=&quot;#full&quot;] {
     max-width: 100vw;
 }
 </code></pre>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/jasper2/feed.xml" rel="self" type="application/atom+xml" /><link href="/jasper2/" rel="alternate" type="text/html" /><updated>2017-11-22T15:44:36+00:00</updated><id>/jasper2/</id><title type="html">Ghost</title><subtitle>The professional publishing platform</subtitle><entry><title type="html">Welcome to Ghost</title><link href="/jasper2/welcome" rel="alternate" type="text/html" title="Welcome to Ghost" /><published>2017-07-27T10:00:00+00:00</published><updated>2017-07-27T10:00:00+00:00</updated><id>/jasper2/welcome</id><content type="html" xml:base="/jasper2/welcome">&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/jasper2/feed.xml" rel="self" type="application/atom+xml" /><link href="/jasper2/" rel="alternate" type="text/html" /><updated>2017-11-29T18:06:46+00:00</updated><id>/jasper2/</id><title type="html">Ghost</title><subtitle>The professional publishing platform</subtitle><entry><title type="html">Welcome to Ghost</title><link href="/jasper2/welcome" rel="alternate" type="text/html" title="Welcome to Ghost" /><published>2017-07-27T10:00:00+00:00</published><updated>2017-07-27T10:00:00+00:00</updated><id>/jasper2/welcome</id><content type="html" xml:base="/jasper2/welcome">&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
 
 &lt;p&gt;We know that first impressions are important, so we’ve populated your new site with some initial &lt;strong&gt;Getting Started&lt;/strong&gt; posts that will help you get familiar with everything in no time. This is the first one!&lt;/p&gt;
 
@@ -106,7 +106,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;writingcodeblocks&quot;&gt;Writing code blocks&lt;/h2&gt;
 &lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;nohighlight&quot;&gt;.my-link {
+&lt;pre&gt;&lt;code&gt;.my-link {
     text-decoration: underline;
 }
 &lt;/code&gt;&lt;/pre&gt;
@@ -115,7 +115,7 @@
 &lt;p&gt;One neat trick which you can use in Markdown to distinguish between different types of images is to add a &lt;code&gt;#hash&lt;/code&gt; value to the end of the source URL, and then target images containing the hash with special styling. For example:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/walking.jpg#full&quot; alt=&quot;walking&quot;&gt;&lt;/p&gt;
 &lt;p&gt;which is styled with...&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;nohighlight&quot;&gt;img[src$=&amp;quot;#full&amp;quot;] {
+&lt;pre&gt;&lt;code&gt;img[src$=&amp;quot;#full&amp;quot;] {
     max-width: 100vw;
 }
 &lt;/code&gt;&lt;/pre&gt;
