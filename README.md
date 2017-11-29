@@ -69,6 +69,19 @@ front matter of every post to match that of your each author *username* as defin
 in the *[\_data/authors.yml](_data/authors.yml)* file.
 With the latest update, multiple author blogs are now supported out of the box.
 
+### Compiling Styles
+
+Following on the way Casper styles are compiled as [described here](https://github.com/tryghost/casper#development):
+
+Jasper2 styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need Node and Gulp installed globally. After that, from the theme's root directory:
+
+```bash
+$ npm install
+$ gulp
+```
+
+Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
+
 ## Issues and Contributing
 
 This install builds well with Ruby v2.4.2 and Jekyll v3.6.2. If you run into any problems
