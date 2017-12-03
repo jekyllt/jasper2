@@ -151,7 +151,7 @@ into the {body} of the default.hbs template -->
                                     {% if post.title != page.title %}
                                         {% assign count = count | plus: 1 %}
                                         {% if count <= 3 %}
-                                            <li><a href="{{ site.baseurl }}{{ post.url | remove: '/' }}">{{ post.title }}</a></li>
+                                            <li><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }}</a></li>
                                         {% endif %}
                                     {% endif %}
                                   {% endif %}

@@ -1,12 +1,12 @@
 
     <article class="post-card {{ page.previous.class }}{% unless page.previous.cover %} no-image{% endunless %}">
         {% if page.previous.cover %}
-            <a class="post-card-image-link" href="{{ site.baseurl }}{{ page.previous.url | remove: '/' }}">
+            <a class="post-card-image-link" href="{{ site.baseurl }}{{ page.previous.url | remove_first: '/' }}">
                 <div class="post-card-image" style="background-image: url({{ site.baseurl }}{{ page.previous.cover }})"></div>
             </a>
         {% endif %}
         <div class="post-card-content">
-            <a class="post-card-content-link" href="{{ site.baseurl }}{{ page.previous.url | remove: '/' }}">
+            <a class="post-card-content-link" href="{{ site.baseurl }}{{ page.previous.url | remove_first: '/' }}">
                 <header class="post-card-header">
                     {% if page.previous.tags.size > 0 %}
                         {% for tag in page.previous.tags %}
