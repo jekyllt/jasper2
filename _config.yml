@@ -1,4 +1,4 @@
-# Jykell configuration
+# Jekyll configuration
 markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
@@ -27,10 +27,10 @@ facebook: ghost # replace by your username
 
 # Disqus
 disqus: False
-disqus_name: myjekyll # replace by your username
+disqus_name: myjekyll # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace by your GA id
+google_analytics: UA-69281367-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
