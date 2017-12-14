@@ -6,7 +6,7 @@ module Jekyll
 
     def generate(site)
       site.data['authors'].each do |author, data|
-        posts = [author, posts_by_author(author)]
+        posts = [author, posts_by_author(site, author)]
         build_subpages(site, 'author', posts)
       end
     end
@@ -40,7 +40,7 @@ module Jekyll
 
     private
 
-    def posts_by_author(author)
+    def posts_by_author(site, author)
       site.posts.docs.select { |post| post.data['author'] == author }
     end
   end
