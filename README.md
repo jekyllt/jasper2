@@ -64,8 +64,8 @@ issues (see below about issue tracking).
 
 ### Author Pages
 
-In order to properly generate author pages you need to rename the field *categories* in the
-front matter of every post to match that of your each author *username* as defined
+In order to properly generate author pages you need to rename the field *author* in the
+front matter of every post to match that of your each author's *username* as defined
 in the *[\_data/authors.yml](_data/authors.yml)* file.
 With the latest update, multiple author blogs are now supported out of the box.
 
