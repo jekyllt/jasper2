@@ -5,8 +5,9 @@ module Jekyll
     safe true
 
     def generate(site)
-      site.categories.each do |author|
-        build_subpages(site, "author", author)
+      site.data['authors'].each do |author, data|
+        posts = [author, posts_by_author(site, author)]
+        build_subpages(site, 'author', posts)
       end
     end
 
@@ -35,6 +36,12 @@ module Jekyll
         site.pages << newpage
 
       end
+    end
+
+    private
+
+    def posts_by_author(site, author)
+      site.posts.docs.select { |post| post.data['author'] == author }
     end
   end
 
