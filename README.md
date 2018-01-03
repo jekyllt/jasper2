@@ -45,6 +45,8 @@ then host;
 generated HTML files to a *gh-pages* branch.
 This later approach is the one I am currently using to generate the live demo.
 
+**3)** deploy the static website with Jekyll-compatible hosters, such as https://www.netlify.com/, that allow for deployment from the Github repo and publish the website using CDNs. Netlify has a free starter offer.
+
 For option **1)** simply clone this repository (*master branch*), and then run
 `bundle exec jekyll serve` inside the directory. Upload the resulting `_site/` (or `../jasper2-pages/`)
 contents to your repository (*master branch* if uploading as your personal page
