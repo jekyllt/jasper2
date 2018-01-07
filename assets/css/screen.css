@@ -324,6 +324,23 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     height: 1.9rem;
 }
 
+/* Site Tag Styles */
+
+.site-tags {
+    background: #fff;
+    padding: 0.1em 0.6em;
+    margin: 0.3em;
+    border-radius: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.site-tags:hover {
+  background: #f1f1f1;
+}
+
+/* End Site Tag Styles */
+
 .subscribe-button {
     display: block;
     padding: 4px 10px;
