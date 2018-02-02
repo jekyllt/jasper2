@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="/jasper2/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/jasper2/assets/built/screen.edited.css" />
     <!-- highlight.js -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
 
     <!-- This tag outputs SEO meta+structured data and other important settings -->
@@ -597,8 +597,12 @@ into the {body} of the default.hbs template -->
     
 
     <!-- highlight.js -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
 
     <!-- jQuery + Fitvids, which makes all video embeds responsive -->
     <script
