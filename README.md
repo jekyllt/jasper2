@@ -5,7 +5,7 @@
 [![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/myJekyll/jasper2)
 
 This is a full-featured port of Ghost's default theme [Casper](https://github.com/tryghost/casper)
-*v2.1.7* for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
+*v2.1.9* for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
 
 ## Live Demo
 
