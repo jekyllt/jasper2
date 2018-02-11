@@ -1,8 +1,8 @@
 ghost:
   username: ghost
   name: Ghost
-  url_full: http://myJekyll.github.io/jasper2/
-  url: myJekyll.github.io/jasper2
+  url_full: http://jekyller.github.io/jasper2/
+  url: jekyller.github.io/jasper2
   bio: The professional publishing platform
   picture: assets/images/ghost.png
   facebook: ghost

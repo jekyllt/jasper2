@@ -1,17 +1,17 @@
 ## Jasper2
 
-[![Build Status](https://travis-ci.org/myJekyll/jasper2.svg?branch=master)](https://travis-ci.org/myJekyll/jasper2)
-[![Ruby](https://img.shields.io/badge/ruby-2.4.2-blue.svg?style=flat)](http://travis-ci.org/myJekyll/jasper2)
-[![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/myJekyll/jasper2)
+[![Build Status](https://travis-ci.org/jekyller/jasper2.svg?branch=master)](https://travis-ci.org/jekyller/jasper2)
+[![Ruby](https://img.shields.io/badge/ruby-2.4.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
+[![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
 
 This is a full-featured port of Ghost's default theme [Casper](https://github.com/tryghost/casper)
 *v2.1.9* for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
 
 ## Live Demo
 
-[Ghost's Casper](https://demo.ghost.io) // [Jasper2](https://myJekyll.github.io/jasper2)
+[Ghost's Casper](https://demo.ghost.io) // [Jasper2](https://jekyller.github.io/jasper2)
 
-![home page](https://raw.githubusercontent.com/myJekyll/jasper2/master/assets/screenshot-desktop.jpg)
+![home page](https://raw.githubusercontent.com/jekyller/jasper2/master/assets/screenshot-desktop.jpg)
 
 
 ## Features
@@ -51,7 +51,7 @@ For option **1)** simply clone this repository (*master branch*), and then run
 `bundle exec jekyll serve` inside the directory. Upload the resulting `_site/` (or `../jasper2-pages/`)
 contents to your repository (*master branch* if uploading as your personal page
 (e.g. username.github.io) or *gh-pages branch* if uploading as a project page
-(as for the [demo](https://github.com/myJekyll/jasper2/tree/gh-pages)).
+(as for the [demo](https://github.com/jekyller/jasper2/tree/gh-pages)).
 
 For option **2)** you will need to set up travis-ci for your personal fork. Briefly all you
 need then is to change your details in *[\_config.yml](_config.yml)* so that you can push
@@ -87,7 +87,7 @@ Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/
 ## Issues and Contributing
 
 This install builds well with Ruby v2.4.2 and Jekyll v3.6.2. If you run into any problems
-please log them on the [issue tracker](https://github.com/myJekyll/jasper2/issues).
+please log them on the [issue tracker](https://github.com/jekyller/jasper2/issues).
 
 Feel free pull-request your patches and fixes.
 
