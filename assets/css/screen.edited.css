@@ -115,3 +115,32 @@ production stylesheet in assets/built/screen.css
     border-radius: 100%;
     box-shadow: #f4f8fb 0 0 0 5px;
 }
+
+figure.highlight,
+.highlight pre,
+.highlight code,
+.highlight table,
+.highlight tbody,
+.highlight tr,
+td.code {
+    border: none;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.highlight table,
+.highlight td pre {
+    padding: 0;
+    margin: 0;
+}
+
+.highlight table td {
+    border: none;
+    margin: none;
+    padding: none;
+}
+
+.highlight table td:first-child,
+.highlight table td:last-child {
+    background: none;
+}
