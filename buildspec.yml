@@ -4,10 +4,10 @@ phases:
   install:
     commands:
       - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
+      - gem install bundler
   build:
     commands:
       - echo "******** Building Jekyll site ********"
-        - bundle install
-      - jekyll build
+      - bundle exec jekyll build
       - echo "******** Uploading to S3 ********"
       - aws s3 sync _site/ s3://phillytech-jekylltest1
