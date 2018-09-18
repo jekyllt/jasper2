@@ -1,21 +1,12 @@
-version: 0.2
+version: 0.3
 
-env:
-  variables:
-SITEBUILD: "yes"
-phases:
-  install:
-commands:
-apt-get update -y
-  pre_build:
-commands:
-gem install jekyll bundler
-bundle install
+install:
+    commands:
+      - gem install jekyll bundler
   build:
-commands:
-echo Build started on date
-bundle exec jekyll build
-aws s3 sync _site/ s3://phillytech-jekylltest1
-  post_build:
-commands:
-echo Build completed on date
+    commands:
+      - echo "******** Building Jekyll site ********"
+      - bundle install
+      - bundle exec jekyll build
+      - echo "******** Uploading to S3 ********"
+      - aws s3 sync _site/ s3://phillytech-jekylltest1
