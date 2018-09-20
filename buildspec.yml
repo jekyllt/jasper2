@@ -10,4 +10,4 @@ phases:
       - bundle install
       - bundle exec jekyll build
       - echo "******** Uploading to S3 ********"
-      - aws s3 sync _site/ s3://http://phillytech-jekylltest1.s3-website-ap-southeast-2.amazonaws.com
+      - aws s3 sync _site/ s3://phillytech-jekylltest1
