@@ -480,3 +480,12 @@ h6 {
     font-size: 1.4rem;
     font-weight: 500;
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast:active) {
+    p, ol, ul{
+        width: 100%;
+    }
+    blockquote {
+        width: 100%;
+    }
+}
