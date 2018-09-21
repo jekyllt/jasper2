@@ -21,7 +21,7 @@
                     <h2 class="post-card-title">{{ page.next.title }}</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>{{ page.next.content | strip_html | truncatewords: 33, "" }}</p>
+                    <p>{{ page.next.content | markdownify | strip_html | truncatewords: 33, "" }}</p>
                 </section>
             </a>
             <footer class="post-card-meta">
