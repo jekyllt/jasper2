@@ -43,7 +43,7 @@ permalink: /:title
 
 # gems and other configs
 plugins_dir: [_plugins]
-gems: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed]
 
 feed:
   path: feed.xml
