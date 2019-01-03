@@ -21,7 +21,11 @@
                     <h2 class="post-card-title">{{ page.previous.title }}</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>{{ page.previous.content | strip_html | truncatewords: 33, "" }}</p>
+                    {% if post.excerpt %}
+                        <p>{{ post.excerpt | strip_html | truncatewords: 33, "" }}</p>
+                    {% else %}
+                        <p>{{ post.content | strip_html | truncatewords: 33, "" }}</p>
+                    {% endif %}
                 </section>
             </a>
             <footer class="post-card-meta">
