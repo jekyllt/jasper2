@@ -1913,3 +1913,16 @@ Usage (In Ghost editor):
         margin-left: 0;
     }
 }
+
+.reading-time {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 33px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: -4px;
+    color: var(--midgrey);
+}
