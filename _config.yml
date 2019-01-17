@@ -16,7 +16,7 @@ logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url: https://coderlevelup.org/
 source_url: https://github.com/coderlevelup/jasper2/
-CNAME: #add cname for website to be created
+CNAME: coderlevelup.org
 
 # Social info
 navigation: True # show the navbar links
