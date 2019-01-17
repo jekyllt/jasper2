@@ -8,10 +8,22 @@ class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+### Super Powers
+Coding is a super-power. Coder LevelUp is helping fellow Africans learn this super-power.
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
+### Big Hairy Audacious Goal
+Coder Levelup is on a mission to be part of the change that sees 500 000 software developers
+working in the Western Cape.
 
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
+### How?
+Find and run super scalable programs for the growth and development of coders (and potential
+coders) throughout their lifetime from before “Hello, world!” to retired guru, from age seven to
+a hundred and seventy.
 
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+### History
+Afrolabs has been running and supporting various code community activities since 2012.
+This year we recognised that incorporation would allow us to better organise our activities.
+
+### Incorporation
+LevelUp NPC, 2018/401659/08 incorporated in July 2018 with members Georgia Goedhals,
+Natalie Milne & David Campey.
