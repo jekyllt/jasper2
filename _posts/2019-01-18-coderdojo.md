@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/coderdojo_class.jpg
 navigation: True
 title: About CoderDojo
-date: 2019-01-17 23:30:00
+date: 2019-01-18 00:30:00
 tags: [coderdojo]
 class: post-template
 subclass: 'post tag-getting-started'
