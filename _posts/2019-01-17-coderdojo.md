@@ -3,8 +3,8 @@ layout: post
 current: post
 cover:  assets/images/coderdojo_class.jpg
 navigation: True
-title: CoderDojo
-date: 2019-01-17 10:00:00
+title: About CoderDojo
+date: 2019-01-17 23:30:00
 tags: [coderdojo]
 class: post-template
 subclass: 'post tag-getting-started'
