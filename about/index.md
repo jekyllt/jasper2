@@ -27,3 +27,6 @@ This year we recognised that incorporation would allow us to better organise our
 ### Incorporation
 LevelUp NPC, 2018/401659/08 incorporated in July 2018 with members Georgia Goedhals,
 Natalie Milne & David Campey.
+
+### Contact
+levelup@afrolabs.co.za
