@@ -471,6 +471,19 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     text-transform: uppercase;
 }
 
+.reading-time {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 33px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: -4px;
+    color: var(--midgrey);
+}
+
 /* Special Styling for home page grid (below):
 
 The first (most recent) post in the list is styled to be bigger than the others and take over the full width of the grid to give it more emphasis. Wrapped in a media query to make sure this only happens on large viewports / desktop-ish devices.

@@ -1,3 +1,5 @@
+{% assign words_per_minute = site.words_per_minute | default: 200 %}
+
 {% assign count = 0 %}
 {% for post in site.posts %}
     {% assign count = count | plus: 1 %}
@@ -42,6 +44,14 @@
                             </span>
                         {% endif %}
                     {% endfor %}
+                    <span class="reading-time">
+                        {% assign words = post.content | strip_html | number_of_words %}
+                        {% if words <= words_per_minute %}
+                          1 min read
+                        {% else %}
+                          {{ words | divided_by:words_per_minute }} min read
+                        {% endif %}
+                    </span>
                 </footer>
             </div>
         </article>
