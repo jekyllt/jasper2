@@ -2,30 +2,26 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/jasper2/tag/fables/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/jasper2/" rel="alternate" type="text/html" />
-  <updated>2019-03-14T12:15:42+00:00</updated>
-  <id>/jasper2/tag/fables/feed.xml</id>
+  <link href="/tag/fables/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-04-16T00:27:52+00:00</updated>
+  <id>/tag/fables/feed.xml</id>
 
   
   
   
 
   
-    <title type="html">Ghost | </title>
+    <title type="html">SEA Lab | </title>
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>Software Engineering and Analytics Laboratory</subtitle>
   
 
   
 
   
-    
-      
-    
-      
     
       
     
@@ -45,11 +41,11 @@
   
     <entry>
       <title type="html">The Businessman &amp;amp; The Fisherman</title>
-      <link href="/jasper2/the-businessman-and-fisherman" rel="alternate" type="text/html" title="The Businessman &amp; The Fisherman" />
+      <link href="/the-businessman-and-fisherman" rel="alternate" type="text/html" title="The Businessman &amp; The Fisherman" />
       <published>2014-08-12T10:18:00+00:00</published>
       <updated>2014-08-12T10:18:00+00:00</updated>
-      <id>/jasper2/the-businessman-and-fisherman</id>
-      <content type="html" xml:base="/jasper2/the-businessman-and-fisherman">&lt;p&gt;An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.&lt;/p&gt;
+      <id>/the-businessman-and-fisherman</id>
+      <content type="html" xml:base="/the-businessman-and-fisherman">&lt;p&gt;An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.&lt;/p&gt;
 
 &lt;p&gt;“How long did it take you to catch them?” the American asked.&lt;/p&gt;
 
@@ -90,7 +86,7 @@
       
 
       <author>
-          <name>Hannah Wolfe</name>
+          <name>hannah</name>
         
         
       </author>

@@ -2,30 +2,26 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/jasper2/author/edgar/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/jasper2/" rel="alternate" type="text/html" />
-  <updated>2019-03-14T12:15:42+00:00</updated>
-  <id>/jasper2/author/edgar/feed.xml</id>
+  <link href="/author/edgar/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-04-16T00:27:52+00:00</updated>
+  <id>/author/edgar/feed.xml</id>
 
   
   
   
 
   
-    <title type="html">Ghost | </title>
+    <title type="html">SEA Lab | </title>
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>Software Engineering and Analytics Laboratory</subtitle>
   
 
   
 
   
-    
-      
-    
-      
     
       
     
@@ -45,11 +41,11 @@
   
     <entry>
       <title type="html">Out to Sea</title>
-      <link href="/jasper2/out-to-sea" rel="alternate" type="text/html" title="Out to Sea" />
+      <link href="/out-to-sea" rel="alternate" type="text/html" title="Out to Sea" />
       <published>1912-07-24T10:18:00+00:00</published>
       <updated>1912-07-24T10:18:00+00:00</updated>
-      <id>/jasper2/out-to-sea</id>
-      <content type="html" xml:base="/jasper2/out-to-sea">&lt;p&gt;I had this story from one who had no business to tell it to me, or to any other. I may credit the seductive influence of an old vintage upon the narrator for the beginning of it, and my own skeptical incredulity during the days that followed for the balance of the strange tale.&lt;/p&gt;
+      <id>/out-to-sea</id>
+      <content type="html" xml:base="/out-to-sea">&lt;p&gt;I had this story from one who had no business to tell it to me, or to any other. I may credit the seductive influence of an old vintage upon the narrator for the beginning of it, and my own skeptical incredulity during the days that followed for the balance of the strange tale.&lt;/p&gt;
 
 &lt;p&gt;When my convivial host discovered that he had told me so much, and that I was prone to doubtfulness, his foolish pride assumed the task the old vintage had commenced, and so he unearthed written evidence in the form of musty manuscript, and dry official records of the British Colonial Office to support many of the salient features of his remarkable narrative.&lt;/p&gt;
 

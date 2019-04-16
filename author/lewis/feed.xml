@@ -2,30 +2,26 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/jasper2/author/lewis/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/jasper2/" rel="alternate" type="text/html" />
-  <updated>2019-03-14T12:15:42+00:00</updated>
-  <id>/jasper2/author/lewis/feed.xml</id>
+  <link href="/author/lewis/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-04-16T00:27:52+00:00</updated>
+  <id>/author/lewis/feed.xml</id>
 
   
   
   
 
   
-    <title type="html">Ghost | </title>
+    <title type="html">SEA Lab | </title>
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>Software Engineering and Analytics Laboratory</subtitle>
   
 
   
 
   
-    
-      
-    
-      
     
       
     
@@ -45,11 +41,11 @@
   
     <entry>
       <title type="html">Looking-Glass house</title>
-      <link href="/jasper2/looking-glass-house" rel="alternate" type="text/html" title="Looking-Glass house" />
+      <link href="/looking-glass-house" rel="alternate" type="text/html" title="Looking-Glass house" />
       <published>1871-03-18T10:18:00+00:00</published>
       <updated>1871-03-18T10:18:00+00:00</updated>
-      <id>/jasper2/looking-glass-house</id>
-      <content type="html" xml:base="/jasper2/looking-glass-house">&lt;p&gt;One thing was certain, that the white kitten had had nothing to do with it:— it was the black kitten’s fault entirely. For the white kitten had been having its face washed by the old cat for the last quarter of an hour (and bearing it pretty well, considering); so you see that it couldn’t have had any hand in the mischief.
+      <id>/looking-glass-house</id>
+      <content type="html" xml:base="/looking-glass-house">&lt;p&gt;One thing was certain, that the white kitten had had nothing to do with it:— it was the black kitten’s fault entirely. For the white kitten had been having its face washed by the old cat for the last quarter of an hour (and bearing it pretty well, considering); so you see that it couldn’t have had any hand in the mischief.
 The way Dinah washed her children’s faces was this: first she held the poor thing down by its ear with one paw, and then with the other paw she rubbed its face all over, the wrong way, beginning at the nose: and just now, as I said, she was hard at work on the white kitten, which was lying quite still and trying to purr — no doubt feeling that it was all meant for its good.
 But the black kitten had been finished with earlier in the afternoon, and so, while Alice was sitting curled up in a corner of the great arm-chair, half talking to herself and half asleep, the kitten had been having a grand game of romps with the ball of worsted Alice had been trying to wind up, and had been rolling it up and down till it had all come undone again; and there it was, spread over the hearth-rug, all knots and tangles, with the kitten running after its own tail in the middle.&lt;/p&gt;
 
@@ -106,11 +102,11 @@ The poor King looked puzzled and unhappy, and struggled with the pencil for some
   
     <entry>
       <title type="html">Down The Rabbit Hole</title>
-      <link href="/jasper2/down-the-rabbit-hole" rel="alternate" type="text/html" title="Down The Rabbit Hole" />
+      <link href="/down-the-rabbit-hole" rel="alternate" type="text/html" title="Down The Rabbit Hole" />
       <published>1865-11-26T10:18:00+00:00</published>
       <updated>1865-11-26T10:18:00+00:00</updated>
-      <id>/jasper2/down-the-rabbit-hole</id>
-      <content type="html" xml:base="/jasper2/down-the-rabbit-hole">&lt;p&gt;Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ thought Alice ‘without pictures or conversation?’&lt;/p&gt;
+      <id>/down-the-rabbit-hole</id>
+      <content type="html" xml:base="/down-the-rabbit-hole">&lt;p&gt;Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ thought Alice ‘without pictures or conversation?’&lt;/p&gt;
 
 &lt;p&gt;So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.&lt;/p&gt;
 

@@ -2,30 +2,26 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/jasper2/author/ghost/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/jasper2/" rel="alternate" type="text/html" />
-  <updated>2019-03-14T12:15:42+00:00</updated>
-  <id>/jasper2/author/ghost/feed.xml</id>
+  <link href="/author/ghost/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-04-16T00:27:52+00:00</updated>
+  <id>/author/ghost/feed.xml</id>
 
   
   
   
 
   
-    <title type="html">Ghost | </title>
+    <title type="html">SEA Lab | </title>
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>Software Engineering and Analytics Laboratory</subtitle>
   
 
   
 
   
-    
-      
-    
-      
     
       
     
@@ -45,11 +41,11 @@
   
     <entry>
       <title type="html">Welcome to Ghost</title>
-      <link href="/jasper2/welcome" rel="alternate" type="text/html" title="Welcome to Ghost" />
+      <link href="/welcome" rel="alternate" type="text/html" title="Welcome to Ghost" />
       <published>2017-07-27T10:00:00+00:00</published>
       <updated>2017-07-27T10:00:00+00:00</updated>
-      <id>/jasper2/welcome</id>
-      <content type="html" xml:base="/jasper2/welcome">&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+      <id>/welcome</id>
+      <content type="html" xml:base="/welcome">&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
 
 &lt;p&gt;We know that first impressions are important, so we’ve populated your new site with some initial &lt;strong&gt;Getting Started&lt;/strong&gt; posts that will help you get familiar with everything in no time. This is the first one!&lt;/p&gt;
 
@@ -94,11 +90,11 @@
   
     <entry>
       <title type="html">Using the Ghost editor</title>
-      <link href="/jasper2/the-editor" rel="alternate" type="text/html" title="Using the Ghost editor" />
+      <link href="/the-editor" rel="alternate" type="text/html" title="Using the Ghost editor" />
       <published>2017-07-27T09:00:00+00:00</published>
       <updated>2017-07-27T09:00:00+00:00</updated>
-      <id>/jasper2/the-editor</id>
-      <content type="html" xml:base="/jasper2/the-editor">&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
+      <id>/the-editor</id>
+      <content type="html" xml:base="/the-editor">&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
 &lt;p&gt;When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause.&lt;/p&gt;
 &lt;p&gt;At the bottom of the editor, you'll find a toolbar with basic formatting options to help you get started as easily as possible. You'll also notice that there's a &lt;strong&gt;?&lt;/strong&gt; icon, which contains more advanced shortcuts.&lt;/p&gt;
 &lt;p&gt;For now, though, let's run you through some of the basics. You'll want to make sure you're editing this post in order to see all the Markdown we've used.&lt;/p&gt;
@@ -168,115 +164,12 @@
     </entry>
   
     <entry>
-      <title type="html">Organising your content with tags</title>
-      <link href="/jasper2/using-tags" rel="alternate" type="text/html" title="Organising your content with tags" />
-      <published>2017-07-27T08:00:00+00:00</published>
-      <updated>2017-07-27T08:00:00+00:00</updated>
-      <id>/jasper2/using-tags</id>
-      <content type="html" xml:base="/jasper2/using-tags">&lt;p&gt;Ghost has a single, powerful organisational taxonomy, called tags.&lt;/p&gt;
-&lt;p&gt;It doesn't matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.&lt;/p&gt;
-&lt;h2 id=&quot;basictagging&quot;&gt;Basic tagging&lt;/h2&gt;
-&lt;p&gt;When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with &lt;code&gt;News&lt;/code&gt; and other posts with &lt;code&gt;Cycling&lt;/code&gt;, which would create two distinct categories of content listed on &lt;code&gt;/tag/news/&lt;/code&gt; and &lt;code&gt;/tag/cycling/&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;If you tag a post with both &lt;code&gt;News&lt;/code&gt; &lt;em&gt;and&lt;/em&gt; &lt;code&gt;Cycling&lt;/code&gt; - then it appears in both sections.&lt;/p&gt;
-&lt;p&gt;Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data.&lt;/p&gt;
-&lt;h2 id=&quot;theprimarytag&quot;&gt;The primary tag&lt;/h2&gt;
-&lt;p&gt;Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. So you can add the most important tag which you want to show up in your theme, but also add a bunch of related tags which are less important.&lt;/p&gt;
-&lt;p&gt;&lt;mark&gt;&lt;strong&gt;News&lt;/strong&gt;, Cycling, Bart Stevens, Extreme Sports&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;In this example, &lt;strong&gt;News&lt;/strong&gt; is the primary tag which will be displayed by the theme, but the post will also still receive all the other tags, and show up in their respective archives.&lt;/p&gt;
-&lt;h2 id=&quot;privatetags&quot;&gt;Private tags&lt;/h2&gt;
-&lt;p&gt;Sometimes you may want to assign a post a specific tag, but you don't necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling.&lt;/p&gt;
-&lt;p&gt;For example, if you sometimes publish posts with video content - you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do.&lt;/p&gt;
-&lt;p&gt;&lt;mark&gt;&lt;strong&gt;News&lt;/strong&gt;, Cycling, #video&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;Here, the theme would assign the post publicly displayed tags of &lt;code&gt;News&lt;/code&gt;, and &lt;code&gt;Cycling&lt;/code&gt; - but it would also keep a private record of the post being tagged with &lt;code&gt;#video&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;In your theme, you could then look for private tags conditionally and give them special formatting:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;nohighlight&quot;&gt;{{#post}}
-    {{#has tag=&amp;quot;#video&amp;quot;}}
-        ...markup for a nice big video post layout...
-    {{else}}
-        ...regular markup for a post...
-    {{/has}}
-{{/post}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can find documentation for theme development techniques like this and many more over on Ghost's extensive &lt;a href=&quot;https://themes.ghost.org/&quot;&gt;theme documentation&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Ghost</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="Getting started" />
-      
-
-      
-        <summary type="html">Ghost has a single, powerful organisational taxonomy, called tags. It doesn't matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content. Basic tagging When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with News and other posts with Cycling, which would create two distinct categories of content listed on /tag/news/ and /tag/cycling/, respectively. If you tag a post with both News and Cycling - then it appears in both sections. Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data. The primary tag Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. So you can add the most important tag which you want to show up in your theme, but also add a bunch of related tags which are less important. News, Cycling, Bart Stevens, Extreme Sports In this example, News is the primary tag which will be displayed by the theme, but the post will also still receive all the other tags, and show up in their respective archives. Private tags Sometimes you may want to assign a post a specific tag, but you don't necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling. For example, if you sometimes publish posts with video content - you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do. News, Cycling, #video Here, the theme would assign the post publicly displayed tags of News, and Cycling - but it would also keep a private record of the post being tagged with #video. In your theme, you could then look for private tags conditionally and give them special formatting: {{#post}} {{#has tag=&amp;quot;#video&amp;quot;}} ...markup for a nice big video post layout... {{else}} ...regular markup for a post... {{/has}} {{/post}} You can find documentation for theme development techniques like this and many more over on Ghost's extensive theme documentation.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Managing Ghost users</title>
-      <link href="/jasper2/managing-users" rel="alternate" type="text/html" title="Managing Ghost users" />
-      <published>2017-07-27T07:00:00+00:00</published>
-      <updated>2017-07-27T07:00:00+00:00</updated>
-      <id>/jasper2/managing-users</id>
-      <content type="html" xml:base="/jasper2/managing-users">&lt;p&gt;Ghost has a number of different user roles for your team&lt;/p&gt;
-&lt;h3 id=&quot;authors&quot;&gt;Authors&lt;/h3&gt;
-&lt;p&gt;The base user level in Ghost is an author. Authors can write posts, edit their own posts, and publish their own posts. Authors are &lt;strong&gt;trusted&lt;/strong&gt; users. If you don't trust users to be allowed to publish their own posts, you shouldn't invite them to Ghost admin.&lt;/p&gt;
-&lt;h3 id=&quot;editors&quot;&gt;Editors&lt;/h3&gt;
-&lt;p&gt;Editors are the 2nd user level in Ghost. Editors can do everything that an Author can do, but they can also edit and publish the posts of others - as well as their own. Editors can also invite new authors to the site.&lt;/p&gt;
-&lt;h3 id=&quot;administrators&quot;&gt;Administrators&lt;/h3&gt;
-&lt;p&gt;The top user level in Ghost is Administrator. Again, administrators can do everything that Authors and Editors can do, but they can also edit all site settings and data, not just content. Additionally, administrators have full access to invite, manage or remove any other user of the site.&lt;/p&gt;
-&lt;h3 id=&quot;theowner&quot;&gt;The Owner&lt;/h3&gt;
-&lt;p&gt;There is only ever one owner of a Ghost site. The owner is a special user which has all the same permissions as an Administrator, but with two exceptions: The Owner can never be deleted. And in some circumstances the owner will have access to additional special settings if applicable — for example, billing details, if using Ghost(Pro).&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;It's a good idea to ask all of your users to fill out their user profiles, including bio and social links. These will populate rich structured data for posts and generally create more opportunities for themes to fully populate their design.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Ghost</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="Getting started" />
-      
-
-      
-        <summary type="html">Ghost has a number of different user roles for your team Authors The base user level in Ghost is an author. Authors can write posts, edit their own posts, and publish their own posts. Authors are trusted users. If you don't trust users to be allowed to publish their own posts, you shouldn't invite them to Ghost admin. Editors Editors are the 2nd user level in Ghost. Editors can do everything that an Author can do, but they can also edit and publish the posts of others - as well as their own. Editors can also invite new authors to the site. Administrators The top user level in Ghost is Administrator. Again, administrators can do everything that Authors and Editors can do, but they can also edit all site settings and data, not just content. Additionally, administrators have full access to invite, manage or remove any other user of the site. The Owner There is only ever one owner of a Ghost site. The owner is a special user which has all the same permissions as an Administrator, but with two exceptions: The Owner can never be deleted. And in some circumstances the owner will have access to additional special settings if applicable — for example, billing details, if using Ghost(Pro). It's a good idea to ask all of your users to fill out their user profiles, including bio and social links. These will populate rich structured data for posts and generally create more opportunities for themes to fully populate their design.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Making your site private</title>
-      <link href="/jasper2/private-sites" rel="alternate" type="text/html" title="Making your site private" />
+      <link href="/private-sites" rel="alternate" type="text/html" title="Making your site private" />
       <published>2017-07-27T06:00:00+00:00</published>
       <updated>2017-07-27T06:00:00+00:00</updated>
-      <id>/jasper2/private-sites</id>
-      <content type="html" xml:base="/jasper2/private-sites">&lt;p&gt;Sometimes you might want to put your site behind closed doors&lt;/p&gt;
+      <id>/private-sites</id>
+      <content type="html" xml:base="/private-sites">&lt;p&gt;Sometimes you might want to put your site behind closed doors&lt;/p&gt;
 &lt;p&gt;If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can hide your Ghost site behind a simple shared pass-phrase.&lt;/p&gt;
 &lt;p&gt;You can toggle this preference on at the bottom of Ghost's General Settings&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/private.png&quot; alt=&quot;private&quot;&gt;&lt;/p&gt;
@@ -311,11 +204,11 @@
   
     <entry>
       <title type="html">Advanced Markdown tips</title>
-      <link href="/jasper2/advanced-markdown" rel="alternate" type="text/html" title="Advanced Markdown tips" />
+      <link href="/advanced-markdown" rel="alternate" type="text/html" title="Advanced Markdown tips" />
       <published>2017-07-27T05:00:00+00:00</published>
       <updated>2017-07-27T05:00:00+00:00</updated>
-      <id>/jasper2/advanced-markdown</id>
-      <content type="html" xml:base="/jasper2/advanced-markdown">&lt;p&gt;There are lots of powerful things you can do with the Ghost editor&lt;/p&gt;
+      <id>/advanced-markdown</id>
+      <content type="html" xml:base="/advanced-markdown">&lt;p&gt;There are lots of powerful things you can do with the Ghost editor&lt;/p&gt;
 &lt;p&gt;If you've gotten pretty comfortable with &lt;a href=&quot;/the-editor/&quot;&gt;all the basics&lt;/a&gt; of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
 &lt;p&gt;As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.&lt;/p&gt;
 &lt;h2 id=&quot;specialformatting&quot;&gt;Special formatting&lt;/h2&gt;
@@ -387,11 +280,11 @@
   
     <entry>
       <title type="html">Setting up your own Ghost theme</title>
-      <link href="/jasper2/themes" rel="alternate" type="text/html" title="Setting up your own Ghost theme" />
+      <link href="/themes" rel="alternate" type="text/html" title="Setting up your own Ghost theme" />
       <published>2017-07-27T04:00:00+00:00</published>
       <updated>2017-07-27T04:00:00+00:00</updated>
-      <id>/jasper2/themes</id>
-      <content type="html" xml:base="/jasper2/themes">&lt;p&gt;Creating a totally custom design for your publication&lt;/p&gt;
+      <id>/themes</id>
+      <content type="html" xml:base="/themes">&lt;p&gt;Creating a totally custom design for your publication&lt;/p&gt;
 &lt;p&gt;Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. However, Ghost can also be completely themed to suit your needs. Rather than just giving you a few basic settings which act as a poor proxy for code, we just let you write code.&lt;/p&gt;
 &lt;p&gt;There are a huge range of both free and premium pre-built themes which you can get from the &lt;a href=&quot;http://marketplace.ghost.org&quot;&gt;Ghost Theme Marketplace&lt;/a&gt;, or you can simply create your own from scratch.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://marketplace.ghost.org&quot;&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/marketplace.jpg&quot; alt=&quot;marketplace&quot;&gt;&lt;/a&gt;&lt;/p&gt;

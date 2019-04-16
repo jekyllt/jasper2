@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/jasper2/feed.xml" rel="self" type="application/atom+xml" /><link href="/jasper2/" rel="alternate" type="text/html" /><updated>2019-03-14T12:15:42+00:00</updated><id>/jasper2/</id><title type="html">Ghost</title><subtitle>The professional publishing platform</subtitle><entry><title type="html">Welcome to Ghost</title><link href="/jasper2/welcome" rel="alternate" type="text/html" title="Welcome to Ghost" /><published>2017-07-27T10:00:00+00:00</published><updated>2017-07-27T10:00:00+00:00</updated><id>/jasper2/welcome</id><content type="html" xml:base="/jasper2/welcome">&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-04-16T00:27:52+00:00</updated><id>/</id><title type="html">SEA Lab</title><subtitle>Software Engineering and Analytics Laboratory</subtitle><entry><title type="html">Welcome to Ghost</title><link href="/welcome" rel="alternate" type="text/html" title="Welcome to Ghost" /><published>2017-07-27T10:00:00+00:00</published><updated>2017-07-27T10:00:00+00:00</updated><id>/welcome</id><content type="html" xml:base="/welcome">&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
 
 &lt;p&gt;We know that first impressions are important, so we’ve populated your new site with some initial &lt;strong&gt;Getting Started&lt;/strong&gt; posts that will help you get familiar with everything in no time. This is the first one!&lt;/p&gt;
 
@@ -13,7 +13,7 @@
 
 &lt;p&gt;The main thing you’ll want to read about next is probably: &lt;a href=&quot;https://demo.ghost.io/the-editor/&quot;&gt;the Ghost editor&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Once you’re done reading, you can simply delete the default &lt;strong&gt;Ghost&lt;/strong&gt; user from your team to remove all of these introductory posts!&lt;/p&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">Hey! Welcome to Ghost, it’s great to have you :)</summary></entry><entry><title type="html">Using the Ghost editor</title><link href="/jasper2/the-editor" rel="alternate" type="text/html" title="Using the Ghost editor" /><published>2017-07-27T09:00:00+00:00</published><updated>2017-07-27T09:00:00+00:00</updated><id>/jasper2/the-editor</id><content type="html" xml:base="/jasper2/the-editor">&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
+&lt;p&gt;Once you’re done reading, you can simply delete the default &lt;strong&gt;Ghost&lt;/strong&gt; user from your team to remove all of these introductory posts!&lt;/p&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">Hey! Welcome to Ghost, it’s great to have you :)</summary></entry><entry><title type="html">Using the Ghost editor</title><link href="/the-editor" rel="alternate" type="text/html" title="Using the Ghost editor" /><published>2017-07-27T09:00:00+00:00</published><updated>2017-07-27T09:00:00+00:00</updated><id>/the-editor</id><content type="html" xml:base="/the-editor">&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
 &lt;p&gt;When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause.&lt;/p&gt;
 &lt;p&gt;At the bottom of the editor, you'll find a toolbar with basic formatting options to help you get started as easily as possible. You'll also notice that there's a &lt;strong&gt;?&lt;/strong&gt; icon, which contains more advanced shortcuts.&lt;/p&gt;
 &lt;p&gt;For now, though, let's run you through some of the basics. You'll want to make sure you're editing this post in order to see all the Markdown we've used.&lt;/p&gt;
@@ -54,47 +54,12 @@
 &lt;h2 id=&quot;dividingthingsup&quot;&gt;Dividing things up&lt;/h2&gt;
 &lt;p&gt;If you're writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping &lt;code&gt;---&lt;/code&gt; on a new line will create a sleak divider, anywhere you want it.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;This should get you going with the vast majority of what you need to do in the editor, but if you're still curious about more advanced tips then check out the &lt;a href=&quot;/advanced-markdown/&quot;&gt;Advanced Markdown Guide&lt;/a&gt; - or if you'd rather learn about how Ghost taxononomies work, we've got a overview of &lt;a href=&quot;/using-tags/&quot;&gt;how to use Ghost tags&lt;/a&gt;.&lt;/p&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">Ghost uses a language called Markdown to format text. When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause. At the bottom of the editor, you'll find a toolbar with basic formatting options to help you get started as easily as possible. You'll also notice that there's a ? icon, which contains more advanced shortcuts. For now, though, let's run you through some of the basics. You'll want to make sure you're editing this post in order to see all the Markdown we've used. Formatting text The most common shortcuts are of course, bold text, italic text, and hyperlinks. These generally make up the bulk of any document. You can type the characters out, but you can also use keyboard shortcuts. CMD/Ctrl + B for Bold CMD/Ctrl + I for Italic CMD/Ctrl + K for a Link CMD/Ctrl + H for a Heading (Press multiple times for h2/h3/h4/etc) With just a couple of extra characters here and there, you're well on your way to creating a beautifully formatted story. Inserting images Images in Markdown look just the same as links, except they're prefixed with an exclamation mark, like this: ![Image description](/path/to/image.jpg) Most Markdown editors don't make you type this out, though. In Ghost you can click on the image icon in the toolbar at the bottom of the editor, or you can just click and drag an image from your desktop directly into the editor. Both will upload the image for you and generate the appropriate Markdown. Important Note: Ghost does not currently have automatic image resizing, so it's always a good idea to make sure your images aren't gigantic files before uploading them to Ghost. Making lists Lists in HTML are a formatting nightmare, but in Markdown they become an absolute breeze with just a couple of characters and a bit of smart automation. For numbered lists, just write out the numbers. For bullet lists, just use * or - or +. Like this: Crack the eggs over a bowl Whisk them together Make an omellete or Remember to buy milk Feed the cat Come up with idea for next story Adding quotes When you want to pull out a particularly good except in the middle of a piece, you can use &amp;gt; at the beginning of a paragraph to turn it into a Blockquote. You might've seen this formatting before in email clients. A well placed quote guides a reader through a story, helping them to understand the most important points being made All themes handles blockquotes slightly differently. Sometimes they'll look better kept shorter, while other times you can quote fairly hefty amounts of text and get away with it. Generally, the safest option is to use blockquotes sparingly. Dividing things up If you're writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping --- on a new line will create a sleak divider, anywhere you want it. This should get you going with the vast majority of what you need to do in the editor, but if you're still curious about more advanced tips then check out the Advanced Markdown Guide - or if you'd rather learn about how Ghost taxononomies work, we've got a overview of how to use Ghost tags.</summary></entry><entry><title type="html">Organising your content with tags</title><link href="/jasper2/using-tags" rel="alternate" type="text/html" title="Organising your content with tags" /><published>2017-07-27T08:00:00+00:00</published><updated>2017-07-27T08:00:00+00:00</updated><id>/jasper2/using-tags</id><content type="html" xml:base="/jasper2/using-tags">&lt;p&gt;Ghost has a single, powerful organisational taxonomy, called tags.&lt;/p&gt;
-&lt;p&gt;It doesn't matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.&lt;/p&gt;
-&lt;h2 id=&quot;basictagging&quot;&gt;Basic tagging&lt;/h2&gt;
-&lt;p&gt;When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with &lt;code&gt;News&lt;/code&gt; and other posts with &lt;code&gt;Cycling&lt;/code&gt;, which would create two distinct categories of content listed on &lt;code&gt;/tag/news/&lt;/code&gt; and &lt;code&gt;/tag/cycling/&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;If you tag a post with both &lt;code&gt;News&lt;/code&gt; &lt;em&gt;and&lt;/em&gt; &lt;code&gt;Cycling&lt;/code&gt; - then it appears in both sections.&lt;/p&gt;
-&lt;p&gt;Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data.&lt;/p&gt;
-&lt;h2 id=&quot;theprimarytag&quot;&gt;The primary tag&lt;/h2&gt;
-&lt;p&gt;Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. So you can add the most important tag which you want to show up in your theme, but also add a bunch of related tags which are less important.&lt;/p&gt;
-&lt;p&gt;&lt;mark&gt;&lt;strong&gt;News&lt;/strong&gt;, Cycling, Bart Stevens, Extreme Sports&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;In this example, &lt;strong&gt;News&lt;/strong&gt; is the primary tag which will be displayed by the theme, but the post will also still receive all the other tags, and show up in their respective archives.&lt;/p&gt;
-&lt;h2 id=&quot;privatetags&quot;&gt;Private tags&lt;/h2&gt;
-&lt;p&gt;Sometimes you may want to assign a post a specific tag, but you don't necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling.&lt;/p&gt;
-&lt;p&gt;For example, if you sometimes publish posts with video content - you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do.&lt;/p&gt;
-&lt;p&gt;&lt;mark&gt;&lt;strong&gt;News&lt;/strong&gt;, Cycling, #video&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;Here, the theme would assign the post publicly displayed tags of &lt;code&gt;News&lt;/code&gt;, and &lt;code&gt;Cycling&lt;/code&gt; - but it would also keep a private record of the post being tagged with &lt;code&gt;#video&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;In your theme, you could then look for private tags conditionally and give them special formatting:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;nohighlight&quot;&gt;{{#post}}
-    {{#has tag=&amp;quot;#video&amp;quot;}}
-        ...markup for a nice big video post layout...
-    {{else}}
-        ...regular markup for a post...
-    {{/has}}
-{{/post}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can find documentation for theme development techniques like this and many more over on Ghost's extensive &lt;a href=&quot;https://themes.ghost.org/&quot;&gt;theme documentation&lt;/a&gt;.&lt;/p&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">Ghost has a single, powerful organisational taxonomy, called tags. It doesn't matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content. Basic tagging When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with News and other posts with Cycling, which would create two distinct categories of content listed on /tag/news/ and /tag/cycling/, respectively. If you tag a post with both News and Cycling - then it appears in both sections. Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data. The primary tag Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. So you can add the most important tag which you want to show up in your theme, but also add a bunch of related tags which are less important. News, Cycling, Bart Stevens, Extreme Sports In this example, News is the primary tag which will be displayed by the theme, but the post will also still receive all the other tags, and show up in their respective archives. Private tags Sometimes you may want to assign a post a specific tag, but you don't necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling. For example, if you sometimes publish posts with video content - you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do. News, Cycling, #video Here, the theme would assign the post publicly displayed tags of News, and Cycling - but it would also keep a private record of the post being tagged with #video. In your theme, you could then look for private tags conditionally and give them special formatting: {{#post}} {{#has tag=&amp;quot;#video&amp;quot;}} ...markup for a nice big video post layout... {{else}} ...regular markup for a post... {{/has}} {{/post}} You can find documentation for theme development techniques like this and many more over on Ghost's extensive theme documentation.</summary></entry><entry><title type="html">Managing Ghost users</title><link href="/jasper2/managing-users" rel="alternate" type="text/html" title="Managing Ghost users" /><published>2017-07-27T07:00:00+00:00</published><updated>2017-07-27T07:00:00+00:00</updated><id>/jasper2/managing-users</id><content type="html" xml:base="/jasper2/managing-users">&lt;p&gt;Ghost has a number of different user roles for your team&lt;/p&gt;
-&lt;h3 id=&quot;authors&quot;&gt;Authors&lt;/h3&gt;
-&lt;p&gt;The base user level in Ghost is an author. Authors can write posts, edit their own posts, and publish their own posts. Authors are &lt;strong&gt;trusted&lt;/strong&gt; users. If you don't trust users to be allowed to publish their own posts, you shouldn't invite them to Ghost admin.&lt;/p&gt;
-&lt;h3 id=&quot;editors&quot;&gt;Editors&lt;/h3&gt;
-&lt;p&gt;Editors are the 2nd user level in Ghost. Editors can do everything that an Author can do, but they can also edit and publish the posts of others - as well as their own. Editors can also invite new authors to the site.&lt;/p&gt;
-&lt;h3 id=&quot;administrators&quot;&gt;Administrators&lt;/h3&gt;
-&lt;p&gt;The top user level in Ghost is Administrator. Again, administrators can do everything that Authors and Editors can do, but they can also edit all site settings and data, not just content. Additionally, administrators have full access to invite, manage or remove any other user of the site.&lt;/p&gt;
-&lt;h3 id=&quot;theowner&quot;&gt;The Owner&lt;/h3&gt;
-&lt;p&gt;There is only ever one owner of a Ghost site. The owner is a special user which has all the same permissions as an Administrator, but with two exceptions: The Owner can never be deleted. And in some circumstances the owner will have access to additional special settings if applicable — for example, billing details, if using Ghost(Pro).&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;It's a good idea to ask all of your users to fill out their user profiles, including bio and social links. These will populate rich structured data for posts and generally create more opportunities for themes to fully populate their design.&lt;/p&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">Ghost has a number of different user roles for your team Authors The base user level in Ghost is an author. Authors can write posts, edit their own posts, and publish their own posts. Authors are trusted users. If you don't trust users to be allowed to publish their own posts, you shouldn't invite them to Ghost admin. Editors Editors are the 2nd user level in Ghost. Editors can do everything that an Author can do, but they can also edit and publish the posts of others - as well as their own. Editors can also invite new authors to the site. Administrators The top user level in Ghost is Administrator. Again, administrators can do everything that Authors and Editors can do, but they can also edit all site settings and data, not just content. Additionally, administrators have full access to invite, manage or remove any other user of the site. The Owner There is only ever one owner of a Ghost site. The owner is a special user which has all the same permissions as an Administrator, but with two exceptions: The Owner can never be deleted. And in some circumstances the owner will have access to additional special settings if applicable — for example, billing details, if using Ghost(Pro). It's a good idea to ask all of your users to fill out their user profiles, including bio and social links. These will populate rich structured data for posts and generally create more opportunities for themes to fully populate their design.</summary></entry><entry><title type="html">Making your site private</title><link href="/jasper2/private-sites" rel="alternate" type="text/html" title="Making your site private" /><published>2017-07-27T06:00:00+00:00</published><updated>2017-07-27T06:00:00+00:00</updated><id>/jasper2/private-sites</id><content type="html" xml:base="/jasper2/private-sites">&lt;p&gt;Sometimes you might want to put your site behind closed doors&lt;/p&gt;
+&lt;p&gt;This should get you going with the vast majority of what you need to do in the editor, but if you're still curious about more advanced tips then check out the &lt;a href=&quot;/advanced-markdown/&quot;&gt;Advanced Markdown Guide&lt;/a&gt; - or if you'd rather learn about how Ghost taxononomies work, we've got a overview of &lt;a href=&quot;/using-tags/&quot;&gt;how to use Ghost tags&lt;/a&gt;.&lt;/p&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">Ghost uses a language called Markdown to format text. When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause. At the bottom of the editor, you'll find a toolbar with basic formatting options to help you get started as easily as possible. You'll also notice that there's a ? icon, which contains more advanced shortcuts. For now, though, let's run you through some of the basics. You'll want to make sure you're editing this post in order to see all the Markdown we've used. Formatting text The most common shortcuts are of course, bold text, italic text, and hyperlinks. These generally make up the bulk of any document. You can type the characters out, but you can also use keyboard shortcuts. CMD/Ctrl + B for Bold CMD/Ctrl + I for Italic CMD/Ctrl + K for a Link CMD/Ctrl + H for a Heading (Press multiple times for h2/h3/h4/etc) With just a couple of extra characters here and there, you're well on your way to creating a beautifully formatted story. Inserting images Images in Markdown look just the same as links, except they're prefixed with an exclamation mark, like this: ![Image description](/path/to/image.jpg) Most Markdown editors don't make you type this out, though. In Ghost you can click on the image icon in the toolbar at the bottom of the editor, or you can just click and drag an image from your desktop directly into the editor. Both will upload the image for you and generate the appropriate Markdown. Important Note: Ghost does not currently have automatic image resizing, so it's always a good idea to make sure your images aren't gigantic files before uploading them to Ghost. Making lists Lists in HTML are a formatting nightmare, but in Markdown they become an absolute breeze with just a couple of characters and a bit of smart automation. For numbered lists, just write out the numbers. For bullet lists, just use * or - or +. Like this: Crack the eggs over a bowl Whisk them together Make an omellete or Remember to buy milk Feed the cat Come up with idea for next story Adding quotes When you want to pull out a particularly good except in the middle of a piece, you can use &amp;gt; at the beginning of a paragraph to turn it into a Blockquote. You might've seen this formatting before in email clients. A well placed quote guides a reader through a story, helping them to understand the most important points being made All themes handles blockquotes slightly differently. Sometimes they'll look better kept shorter, while other times you can quote fairly hefty amounts of text and get away with it. Generally, the safest option is to use blockquotes sparingly. Dividing things up If you're writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping --- on a new line will create a sleak divider, anywhere you want it. This should get you going with the vast majority of what you need to do in the editor, but if you're still curious about more advanced tips then check out the Advanced Markdown Guide - or if you'd rather learn about how Ghost taxononomies work, we've got a overview of how to use Ghost tags.</summary></entry><entry><title type="html">Making your site private</title><link href="/private-sites" rel="alternate" type="text/html" title="Making your site private" /><published>2017-07-27T06:00:00+00:00</published><updated>2017-07-27T06:00:00+00:00</updated><id>/private-sites</id><content type="html" xml:base="/private-sites">&lt;p&gt;Sometimes you might want to put your site behind closed doors&lt;/p&gt;
 &lt;p&gt;If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can hide your Ghost site behind a simple shared pass-phrase.&lt;/p&gt;
 &lt;p&gt;You can toggle this preference on at the bottom of Ghost's General Settings&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/private.png&quot; alt=&quot;private&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Ghost will give you a short, randomly generated pass-phrase which you can share with anyone who needs access to the site while you're working on it. While this setting is enabled, all search engine optimisation features will be switched off to help keep the site off the radar.&lt;/p&gt;
-&lt;p&gt;Do remember though, this is &lt;em&gt;not&lt;/em&gt; secure authentication. You shouldn't rely on this feature for protecting important private data. It's just a simple, shared pass-phrase for very basic privacy.&lt;/p&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">Sometimes you might want to put your site behind closed doors If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can hide your Ghost site behind a simple shared pass-phrase. You can toggle this preference on at the bottom of Ghost's General Settings Ghost will give you a short, randomly generated pass-phrase which you can share with anyone who needs access to the site while you're working on it. While this setting is enabled, all search engine optimisation features will be switched off to help keep the site off the radar. Do remember though, this is not secure authentication. You shouldn't rely on this feature for protecting important private data. It's just a simple, shared pass-phrase for very basic privacy.</summary></entry><entry><title type="html">Advanced Markdown tips</title><link href="/jasper2/advanced-markdown" rel="alternate" type="text/html" title="Advanced Markdown tips" /><published>2017-07-27T05:00:00+00:00</published><updated>2017-07-27T05:00:00+00:00</updated><id>/jasper2/advanced-markdown</id><content type="html" xml:base="/jasper2/advanced-markdown">&lt;p&gt;There are lots of powerful things you can do with the Ghost editor&lt;/p&gt;
+&lt;p&gt;Do remember though, this is &lt;em&gt;not&lt;/em&gt; secure authentication. You shouldn't rely on this feature for protecting important private data. It's just a simple, shared pass-phrase for very basic privacy.&lt;/p&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">Sometimes you might want to put your site behind closed doors If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can hide your Ghost site behind a simple shared pass-phrase. You can toggle this preference on at the bottom of Ghost's General Settings Ghost will give you a short, randomly generated pass-phrase which you can share with anyone who needs access to the site while you're working on it. While this setting is enabled, all search engine optimisation features will be switched off to help keep the site off the radar. Do remember though, this is not secure authentication. You shouldn't rely on this feature for protecting important private data. It's just a simple, shared pass-phrase for very basic privacy.</summary></entry><entry><title type="html">Advanced Markdown tips</title><link href="/advanced-markdown" rel="alternate" type="text/html" title="Advanced Markdown tips" /><published>2017-07-27T05:00:00+00:00</published><updated>2017-07-27T05:00:00+00:00</updated><id>/advanced-markdown</id><content type="html" xml:base="/advanced-markdown">&lt;p&gt;There are lots of powerful things you can do with the Ghost editor&lt;/p&gt;
 &lt;p&gt;If you've gotten pretty comfortable with &lt;a href=&quot;/the-editor/&quot;&gt;all the basics&lt;/a&gt; of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
 &lt;p&gt;As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.&lt;/p&gt;
 &lt;h2 id=&quot;specialformatting&quot;&gt;Special formatting&lt;/h2&gt;
@@ -136,7 +101,7 @@
 &lt;/li&gt;
 &lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Dogs are usually not red &lt;a href=&quot;#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">There are lots of powerful things you can do with the Ghost editor If you've gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using. Special formatting As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example: strike through highlight *escaped characters* Writing code blocks There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, like this. Larger snippets of code can be displayed across multiple lines using triple back ticks: .my-link { text-decoration: underline; } If you want to get really fancy, you can even add syntax highlighting using Prism.js. Full bleed images One neat trick which you can use in Markdown to distinguish between different types of images is to add a #hash value to the end of the source URL, and then target images containing the hash with special styling. For example: which is styled with... img[src$=&amp;quot;#full&amp;quot;] { max-width: 100vw; } This creates full-bleed images in the Casper theme, which stretch beyond their usual boundaries right up to the edge of the window. Every theme handles these types of things slightly differently, but it's a great trick to play with if you want to have a variety of image sizes and styles. Reference lists The quick brown fox, jumped over the lazy dog. Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference. Creating footnotes The quick brown fox[1] jumped over the lazy dog[2]. Footnotes are a great way to add additional contextual details when appropriate. Ghost will automatically add footnote content to the very end of your post. Full HTML Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Ghost editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example: Foxes are red ↩︎ Dogs are usually not red ↩︎</summary></entry><entry><title type="html">Setting up your own Ghost theme</title><link href="/jasper2/themes" rel="alternate" type="text/html" title="Setting up your own Ghost theme" /><published>2017-07-27T04:00:00+00:00</published><updated>2017-07-27T04:00:00+00:00</updated><id>/jasper2/themes</id><content type="html" xml:base="/jasper2/themes">&lt;p&gt;Creating a totally custom design for your publication&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">There are lots of powerful things you can do with the Ghost editor If you've gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using. Special formatting As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example: strike through highlight *escaped characters* Writing code blocks There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, like this. Larger snippets of code can be displayed across multiple lines using triple back ticks: .my-link { text-decoration: underline; } If you want to get really fancy, you can even add syntax highlighting using Prism.js. Full bleed images One neat trick which you can use in Markdown to distinguish between different types of images is to add a #hash value to the end of the source URL, and then target images containing the hash with special styling. For example: which is styled with... img[src$=&amp;quot;#full&amp;quot;] { max-width: 100vw; } This creates full-bleed images in the Casper theme, which stretch beyond their usual boundaries right up to the edge of the window. Every theme handles these types of things slightly differently, but it's a great trick to play with if you want to have a variety of image sizes and styles. Reference lists The quick brown fox, jumped over the lazy dog. Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference. Creating footnotes The quick brown fox[1] jumped over the lazy dog[2]. Footnotes are a great way to add additional contextual details when appropriate. Ghost will automatically add footnote content to the very end of your post. Full HTML Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Ghost editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example: Foxes are red ↩︎ Dogs are usually not red ↩︎</summary></entry><entry><title type="html">Setting up your own Ghost theme</title><link href="/themes" rel="alternate" type="text/html" title="Setting up your own Ghost theme" /><published>2017-07-27T04:00:00+00:00</published><updated>2017-07-27T04:00:00+00:00</updated><id>/themes</id><content type="html" xml:base="/themes">&lt;p&gt;Creating a totally custom design for your publication&lt;/p&gt;
 &lt;p&gt;Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. However, Ghost can also be completely themed to suit your needs. Rather than just giving you a few basic settings which act as a poor proxy for code, we just let you write code.&lt;/p&gt;
 &lt;p&gt;There are a huge range of both free and premium pre-built themes which you can get from the &lt;a href=&quot;http://marketplace.ghost.org&quot;&gt;Ghost Theme Marketplace&lt;/a&gt;, or you can simply create your own from scratch.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://marketplace.ghost.org&quot;&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/marketplace.jpg&quot; alt=&quot;marketplace&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -152,7 +117,7 @@
 &lt;li&gt;and so on&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We've got &lt;a href=&quot;http://themes.ghost.org/docs/about&quot;&gt;full and extensive theme documentation&lt;/a&gt; which outlines every template file, context and helper that you can use.&lt;/p&gt;
-&lt;p&gt;If you want to chat with other people making Ghost themes to get any advice or help, there's also a &lt;strong&gt;#themes&lt;/strong&gt; channel in our &lt;a href=&quot;https://slack.ghost.org&quot;&gt;public Slack community&lt;/a&gt; which we always recommend joining!&lt;/p&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">Creating a totally custom design for your publication Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. However, Ghost can also be completely themed to suit your needs. Rather than just giving you a few basic settings which act as a poor proxy for code, we just let you write code. There are a huge range of both free and premium pre-built themes which you can get from the Ghost Theme Marketplace, or you can simply create your own from scratch. Anyone can write a completely custom Ghost theme, with just some solid knowledge of HTML and CSS Ghost themes are written with a templating language called handlebars, which has a bunch of dynamic helpers to insert your data into template files. Like , for example, outputs the name of the current author. The best way to learn how to write your own Ghost theme is to have a look at the source code for Casper, which is heavily commented and should give you a sense of how everything fits together. default.hbs is the main template file, all contexts will load inside this file unless specifically told to use a different template. post.hbs is the file used in the context of viewing a post. index.hbs is the file used in the context of viewing the home page. and so on We've got full and extensive theme documentation which outlines every template file, context and helper that you can use. If you want to chat with other people making Ghost themes to get any advice or help, there's also a #themes channel in our public Slack community which we always recommend joining!</summary></entry><entry><title type="html">The Businessman &amp;amp; The Fisherman</title><link href="/jasper2/the-businessman-and-fisherman" rel="alternate" type="text/html" title="The Businessman &amp; The Fisherman" /><published>2014-08-12T10:18:00+00:00</published><updated>2014-08-12T10:18:00+00:00</updated><id>/jasper2/the-businessman-and-fisherman</id><content type="html" xml:base="/jasper2/the-businessman-and-fisherman">&lt;p&gt;An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.&lt;/p&gt;
+&lt;p&gt;If you want to chat with other people making Ghost themes to get any advice or help, there's also a &lt;strong&gt;#themes&lt;/strong&gt; channel in our &lt;a href=&quot;https://slack.ghost.org&quot;&gt;public Slack community&lt;/a&gt; which we always recommend joining!&lt;/p&gt;</content><author><name>Ghost</name></author><category term="Getting started" /><summary type="html">Creating a totally custom design for your publication Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. However, Ghost can also be completely themed to suit your needs. Rather than just giving you a few basic settings which act as a poor proxy for code, we just let you write code. There are a huge range of both free and premium pre-built themes which you can get from the Ghost Theme Marketplace, or you can simply create your own from scratch. Anyone can write a completely custom Ghost theme, with just some solid knowledge of HTML and CSS Ghost themes are written with a templating language called handlebars, which has a bunch of dynamic helpers to insert your data into template files. Like , for example, outputs the name of the current author. The best way to learn how to write your own Ghost theme is to have a look at the source code for Casper, which is heavily commented and should give you a sense of how everything fits together. default.hbs is the main template file, all contexts will load inside this file unless specifically told to use a different template. post.hbs is the file used in the context of viewing a post. index.hbs is the file used in the context of viewing the home page. and so on We've got full and extensive theme documentation which outlines every template file, context and helper that you can use. If you want to chat with other people making Ghost themes to get any advice or help, there's also a #themes channel in our public Slack community which we always recommend joining!</summary></entry><entry><title type="html">The Businessman &amp;amp; The Fisherman</title><link href="/the-businessman-and-fisherman" rel="alternate" type="text/html" title="The Businessman &amp; The Fisherman" /><published>2014-08-12T10:18:00+00:00</published><updated>2014-08-12T10:18:00+00:00</updated><id>/the-businessman-and-fisherman</id><content type="html" xml:base="/the-businessman-and-fisherman">&lt;p&gt;An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.&lt;/p&gt;
 
 &lt;p&gt;“How long did it take you to catch them?” the American asked.&lt;/p&gt;
 
@@ -184,426 +149,7 @@
 
 &lt;p&gt;Adapted from the “Anekdote zur Senkung der Arbeitsmoral” by &lt;strong&gt;Heinrich Böll&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;An influential German write and Nobel Prize for Literature in 1972.&lt;/p&gt;</content><author><name>Hannah Wolfe</name></author><category term="fables" /><summary type="html">An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.</summary></entry><entry><title type="html">A Full and Comprehensive Style Test</title><link href="/jasper2/a-full-and-comprehensive-style-test" rel="alternate" type="text/html" title="A Full and Comprehensive Style Test" /><published>2012-09-01T10:00:00+00:00</published><updated>2012-09-01T10:00:00+00:00</updated><id>/jasper2/a-full-and-comprehensive-style-test</id><content type="html" xml:base="/jasper2/a-full-and-comprehensive-style-test">&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;heading1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, &lt;a title=&quot;test link&quot; href=&quot;#&quot;&gt;test link&lt;/a&gt; adipiscing elit. &lt;strong&gt;This is strong.&lt;/strong&gt; Nullam dignissim convallis est. Quisque aliquam. &lt;em&gt;This is emphasized.&lt;/em&gt; Donec faucibus. Nunc iaculis suscipit dui. 5&lt;sup&gt;3&lt;/sup&gt; = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. &lt;cite&gt;The New York Times&lt;/cite&gt; (That’s a citation). &lt;span style=&quot;text-decoration:underline;&quot;&gt;Underline.&lt;/span&gt; Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;&lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; and &lt;abbr title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type &lt;code&gt;COPY &lt;var&gt;filename&lt;/var&gt;&lt;/code&gt;. &lt;del&gt;Dinner’s at 5:00.&lt;/del&gt; &lt;ins&gt;Let’s make that 7.&lt;/ins&gt; This &lt;span style=&quot;text-decoration:line-through;&quot;&gt;text&lt;/span&gt; has been struck.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;media&quot;&gt;Media&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.&lt;/p&gt;
-
-&lt;h3 id=&quot;bigimage&quot;&gt;Big Image&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://demo.ghost.io/content/images/2014/09/testimg1.jpeg&quot; alt=&quot;Test Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
-
-&lt;h3 id=&quot;smallimage&quot;&gt;Small Image&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://demo.ghost.io/content/images/2014/09/testimg2.jpg&quot; alt=&quot;Small Test Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Labore et dolore.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;listtypes&quot;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;definitionlist&quot;&gt;Definition List&lt;/h3&gt;
-
-&lt;dl&gt;
-&lt;dt&gt;Definition List Title&lt;/dt&gt;
-&lt;dd&gt;This is a definition list division.&lt;/dd&gt;
-&lt;dt&gt;Definition&lt;/dt&gt;
-&lt;dd&gt;An exact statement or description of the nature, scope, or meaning of something: &lt;em&gt;our definition of what constitutes poetry.&lt;/em&gt;&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;h3 id=&quot;orderedlist&quot;&gt;Ordered List&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;List Item 1  &lt;/li&gt;
-&lt;li&gt;List Item 2 &lt;br /&gt;
-&lt;ol&gt;&lt;li&gt;Nested list item A&lt;/li&gt;
-&lt;li&gt;Nested list item B&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;unorderedlist&quot;&gt;Unordered List&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;List Item 1&lt;/li&gt;
-&lt;li&gt;List Item 2
-&lt;ul&gt;&lt;li&gt;Nested list item A&lt;/li&gt;
-&lt;li&gt;Nested list item B&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;table&quot;&gt;Table&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;th&gt;Table Header 1&lt;/th&gt;
-&lt;th&gt;Table Header 2&lt;/th&gt;
-&lt;th&gt;Table Header 3&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&quot;even&quot;&gt;
-&lt;td&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;preformattedtext&quot;&gt;Preformatted Text&lt;/h2&gt;
-
-&lt;p&gt;Typographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.&lt;/p&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Code can be presented inline, like &lt;code&gt;&amp;lt;?php bloginfo('stylesheet_url'); ?&amp;gt;&lt;/code&gt;, or within a &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; block. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.&lt;/p&gt;
-
-&lt;p&gt;Code blocks can also be inserted with the highlight tag as below:&lt;/p&gt;
-&lt;pre&gt;
-    
-    {% highlight language-x %}
-    # some code
-    {% endhighlight %}
-    
-&lt;/pre&gt;
-
-&lt;p&gt;More information about code highlighting in jekyll can be found  &lt;a href=&quot;https://jekyllrb.com/docs/templates/#code-snippet-highlighting&quot;&gt;in Jekyll documentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;These area a couple of examples showing the resulting highlighted code:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* css code sample */&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backend.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;q=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;myform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// on success use return data here&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xhr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// if ajax fails display error alert&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ajax error response type &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Now you can also use &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt;.
-For more on how to use it and on the available styles check their
-&lt;a href=&quot;https://highlightjs.org/static/demo/&quot;&gt;demo&lt;/a&gt; and
-&lt;a href=&quot;http://highlightjs.readthedocs.org/en/latest/&quot;&gt;documentation&lt;/a&gt; pages.&lt;/p&gt;
-
-&lt;div class=&quot;system&quot;&gt;
-&lt;pre&gt;&lt;code class=&quot;swift&quot;&gt;// Swift code sample
-import Foundation
-
-@objc class Person: Entity {
-  var name: String!
-  var age:  Int!
-
-  init(name: String, age: Int) {
-    /* /* ... */ */
-  }
-
-  // Return a descriptive string for this person
-  func description(offset: Int = 0) -&gt; String {
-    return &quot;\(name) is \(age + offset) years old&quot;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
-
-&lt;p&gt;Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. &lt;cite&gt;— &lt;a href=&quot;http://en.wikipedia.org/wiki/HAL_9000&quot;&gt;HAL 9000&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And here’s a bit of trailing text.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;textlevelsemantics&quot;&gt;Text-level semantics&lt;/h2&gt;
-
-&lt;p&gt;The &lt;a href=&quot;#&quot;&gt;a element&lt;/a&gt; example &lt;br /&gt;
-The &lt;abbr&gt;abbr element&lt;/abbr&gt; and &lt;abbr title=&quot;Title text&quot;&gt;abbr element with title&lt;/abbr&gt; examples &lt;br /&gt;
-The &lt;b&gt;b element&lt;/b&gt; example &lt;br /&gt;
-The &lt;cite&gt;cite element&lt;/cite&gt; example &lt;br /&gt;
-The &lt;code&gt;code element&lt;/code&gt; example &lt;br /&gt;
-The &lt;del&gt;del element&lt;/del&gt; example &lt;br /&gt;
-The &lt;dfn&gt;dfn element&lt;/dfn&gt; and &lt;dfn title=&quot;Title text&quot;&gt;dfn element with title&lt;/dfn&gt; examples &lt;br /&gt;
-The &lt;em&gt;em element&lt;/em&gt; example &lt;br /&gt;
-The &lt;i&gt;i element&lt;/i&gt; example &lt;br /&gt;
-The &lt;ins&gt;ins element&lt;/ins&gt; example &lt;br /&gt;
-The &lt;kbd&gt;kbd element&lt;/kbd&gt; example &lt;br /&gt;
-The &lt;mark&gt;mark element&lt;/mark&gt; example &lt;br /&gt;
-The &lt;q&gt;q element &lt;q&gt;inside&lt;/q&gt; a q element&lt;/q&gt; example &lt;br /&gt;
-The &lt;s&gt;s element&lt;/s&gt; example &lt;br /&gt;
-The &lt;samp&gt;samp element&lt;/samp&gt; example &lt;br /&gt;
-The &lt;small&gt;small element&lt;/small&gt; example &lt;br /&gt;
-The &lt;span&gt;span element&lt;/span&gt; example &lt;br /&gt;
-The &lt;strong&gt;strong element&lt;/strong&gt; example &lt;br /&gt;
-The &lt;sub&gt;sub element&lt;/sub&gt; example &lt;br /&gt;
-The &lt;sup&gt;sup element&lt;/sup&gt; example &lt;br /&gt;
-The &lt;var&gt;var element&lt;/var&gt; example &lt;br /&gt;
-The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;forms&quot;&gt;Forms&lt;/h2&gt;
-
-&lt;form&gt;
-&lt;fieldset&gt;
-&lt;legend&gt;Inputs as descendents of labels (form legend)&lt;/legend&gt;
-&lt;label&gt;
-&lt;b&gt;Text input&lt;/b&gt;
-&lt;input type=&quot;text&quot; value=&quot;default value&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Email input&lt;/b&gt;
-&lt;input type=&quot;email&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Search input&lt;/b&gt;
-&lt;input type=&quot;search&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Tel input&lt;/b&gt;
-&lt;input type=&quot;tel&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;URL input&lt;/b&gt;
-&lt;input type=&quot;url&quot; placeholder=&quot;http://&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Password input&lt;/b&gt;
-&lt;input type=&quot;password&quot; value=&quot;password&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;File input&lt;/b&gt;
-&lt;input type=&quot;file&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Radio input&lt;/b&gt;
-&lt;input type=&quot;radio&quot; name=&quot;rad&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Checkbox input&lt;/b&gt;
-&lt;input type=&quot;checkbox&quot;&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;input type=&quot;radio&quot; name=&quot;rad&quot;&gt; Radio input
-&lt;/label&gt;
-&lt;label&gt;
-&lt;input type=&quot;checkbox&quot;&gt; Checkbox input
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Select field&lt;/b&gt;
-&lt;select&gt;
-&lt;option&gt;Option 01&lt;/option&gt;
-&lt;option&gt;Option 02&lt;/option&gt;
-&lt;/select&gt;
-&lt;/label&gt;
-&lt;label&gt;
-&lt;b&gt;Textarea&lt;/b&gt;
-&lt;textarea cols=&quot;30&quot; rows=&quot;5&quot; &gt;Textarea text&lt;/textarea&gt;
-&lt;/label&gt;
-&lt;/fieldset&gt;
-
-&lt;fieldset&gt;
-&lt;legend&gt;Clickable inputs and buttons&lt;/legend&gt;
-&lt;input type=&quot;image&quot; src=&quot;http://placekitten.com/90/24&quot; alt=&quot;Image (input)&quot;&gt;
-&lt;input type=&quot;reset&quot; value=&quot;Reset (input)&quot;&gt;
-&lt;input type=&quot;button&quot; value=&quot;Button (input)&quot;&gt;
-&lt;input type=&quot;submit&quot; value=&quot;Submit (input)&quot;&gt;
-&lt;button type=&quot;reset&quot;&gt;Reset (button)&lt;/button&gt;
-&lt;button type=&quot;button&quot;&gt;Button (button)&lt;/button&gt;
-&lt;button type=&quot;submit&quot;&gt;Submit (button)&lt;/button&gt;
-&lt;/fieldset&gt;
-
-&lt;fieldset id=&quot;boxsize&quot;&gt;
-&lt;legend&gt;box-sizing tests&lt;/legend&gt;
-&lt;div&gt;&lt;input type=&quot;text&quot; value=&quot;text&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;email&quot; value=&quot;email&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;search&quot; value=&quot;search&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;url&quot; value=&quot;http://example.com&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;password&quot; value=&quot;password&quot;&gt;&lt;/div&gt;
-
-&lt;div&gt;&lt;input type=&quot;color&quot; value=&quot;#000000&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;number&quot; value=&quot;5&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;range&quot; value=&quot;10&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;date&quot; value=&quot;1970-01-01&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;month&quot; value=&quot;1970-01&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;week&quot; value=&quot;1970-W01&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;time&quot; value=&quot;18:23&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;datetime&quot; value=&quot;1970-01-01T00:00:00Z&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;datetime-local&quot; value=&quot;1970-01-01T00:00&quot;&gt;&lt;/div&gt;
-
-&lt;div&gt;&lt;input type=&quot;radio&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;/div&gt;
-
-&lt;div&gt;&lt;select&gt;&lt;option&gt;Option 01&lt;/option&gt;&lt;option&gt;Option 02&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
-&lt;div&gt;&lt;textarea cols=&quot;30&quot; rows=&quot;5&quot; &gt;Textarea text&lt;/textarea&gt;&lt;/div&gt;
-
-&lt;div&gt;&lt;input type=&quot;image&quot; src=&quot;http://placekitten.com/90/24&quot; alt=&quot;Image (input)&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;reset&quot; value=&quot;Reset (input)&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;button&quot; value=&quot;Button (input)&quot;&gt;&lt;/div&gt;
-&lt;div&gt;&lt;input type=&quot;submit&quot; value=&quot;Submit (input)&quot;&gt;&lt;/div&gt;
-
-&lt;div&gt;&lt;button type=&quot;reset&quot;&gt;Reset (button)&lt;/button&gt;&lt;/div&gt;
-&lt;div&gt;&lt;button type=&quot;button&quot;&gt;Button (button)&lt;/button&gt;&lt;/div&gt;
-&lt;div&gt;&lt;button type=&quot;submit&quot;&gt;Submit (button)&lt;/button&gt;&lt;/div&gt;
-&lt;/fieldset&gt;
-&lt;/form&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;embeds&quot;&gt;Embeds&lt;/h2&gt;
-
-&lt;p&gt;Sometimes all you want to do is embed a little love from another location and set your post alive.&lt;/p&gt;
-
-&lt;h3 id=&quot;video&quot;&gt;Video&lt;/h3&gt;
-
-&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
-
-&lt;iframe src=&quot;//player.vimeo.com/video/103224792?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;600&quot; height=&quot;338&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;h3 id=&quot;slides&quot;&gt;Slides&lt;/h3&gt;
-
-&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
-
-&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;34d2856027ce01316b5d621ab8e7d421&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;h3 id=&quot;audio&quot;&gt;Audio&lt;/h3&gt;
-
-&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/169381837&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.&lt;/p&gt;
-
-&lt;p&gt;&lt;div data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;bcqhe&quot; data-default-tab=&quot;js&quot; data-user=&quot;rglazebrook&quot; class='codepen'&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;var c = new Sketch.create({autoclear: false}),
-    bigCircle = 50,
-    littleCircle = 5,
-    // The velocity value determines how much to move the spinner head (in radians).
-    velocity = 0.105,
-    hue = 0,
-    // The alpha value below determines the length of the spinner&amp;#39;s tail.
-    bg = &amp;#39;rgba(40,40,40,.075)&amp;#39;;
-    Spinner = function() {};
-
-Spinner.prototype.setup = function() {
-  this.x = c.width / 2;
-  this.y = c.height / 2 - bigCircle;
-  this.rotation = 0;
-}
-Spinner.prototype.update = function() {
-  this.rotation += velocity;
-  this.rotation = this.rotation % TWO_PI;
-  this.x = c.width /2 + cos(this.rotation) * bigCircle;
-  this.y = c.height / 2 + sin(this.rotation) * bigCircle;
-}
-Spinner.prototype.draw = function() {
-  c.fillStyle = &amp;#39;hsl(&amp;#39;+hue+&amp;#39;,50%,50%)&amp;#39;;
-  c.beginPath();
-  c.arc(this.x, this.y, littleCircle, 0, TWO_PI);
-  c.fill();
-  c.closePath();
-}
-c.setup = function() {
-  spinner = new Spinner();
-  spinner.setup();
-}
-c.update = function() {
-  spinner.update();
-  hue = ++hue % 360;
-}
-c.draw = function() {
-  spinner.draw();
-  c.fillStyle = bg;
-  c.fillRect(0,0,c.width,c.height);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;See the Pen &lt;a href='http://codepen.io/rglazebrook/pen/bcqhe/'&gt;Simple Rotating Spinner&lt;/a&gt; by Rob Glazebrook (&lt;a href='http://codepen.io/rglazebrook'&gt;@rglazebrook&lt;/a&gt;) on &lt;a href='http://codepen.io'&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;script async src=&quot;//codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Isn't it beautiful?&lt;/p&gt;</content><author><name>John O'Nolan</name></author><summary type="html">Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</summary></entry><entry><title type="html">I Have a Dream</title><link href="/jasper2/i-have-a-dream" rel="alternate" type="text/html" title="I Have a Dream" /><published>1963-08-28T10:18:00+00:00</published><updated>1963-08-28T10:18:00+00:00</updated><id>/jasper2/i-have-a-dream</id><content type="html" xml:base="/jasper2/i-have-a-dream">&lt;p&gt;I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.&lt;/p&gt;
+&lt;p&gt;An influential German write and Nobel Prize for Literature in 1972.&lt;/p&gt;</content><author><name>hannah</name></author><category term="fables" /><summary type="html">An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.</summary></entry><entry><title type="html">I Have a Dream</title><link href="/i-have-a-dream" rel="alternate" type="text/html" title="I Have a Dream" /><published>1963-08-28T10:18:00+00:00</published><updated>1963-08-28T10:18:00+00:00</updated><id>/i-have-a-dream</id><content type="html" xml:base="/i-have-a-dream">&lt;p&gt;I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.&lt;/p&gt;
 
 &lt;p&gt;Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity.&lt;/p&gt;
 
@@ -695,4 +241,117 @@ c.draw = function() {
 
 &lt;p&gt;&lt;em&gt;Free at last! Free at last!&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Thank God Almighty, we are free at last!&lt;/em&gt;&lt;/p&gt;</content><author><name>Martin Luther King</name></author><category term="speeches" /><summary type="html">I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;Thank God Almighty, we are free at last!&lt;/em&gt;&lt;/p&gt;</content><author><name>Martin Luther King</name></author><category term="speeches" /><summary type="html">I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.</summary></entry><entry><title type="html">The Purpose of Education</title><link href="/the-purpose-of-education" rel="alternate" type="text/html" title="The Purpose of Education" /><published>1948-12-12T10:18:00+00:00</published><updated>1948-12-12T10:18:00+00:00</updated><id>/the-purpose-of-education</id><content type="html" xml:base="/the-purpose-of-education">&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
+
+&lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
+
+&lt;p&gt;Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.&lt;/p&gt;
+
+&lt;p&gt;The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.&lt;/p&gt;
+
+&lt;p&gt;The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?&lt;/p&gt;
+
+&lt;p&gt;We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.&lt;/p&gt;
+
+&lt;p&gt;If we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, “brethren!” Be careful, teachers!&lt;/p&gt;</content><author><name>Martin Luther King</name></author><category term="speeches" /><summary type="html">As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.</summary></entry><entry><title type="html">Out to Sea</title><link href="/out-to-sea" rel="alternate" type="text/html" title="Out to Sea" /><published>1912-07-24T10:18:00+00:00</published><updated>1912-07-24T10:18:00+00:00</updated><id>/out-to-sea</id><content type="html" xml:base="/out-to-sea">&lt;p&gt;I had this story from one who had no business to tell it to me, or to any other. I may credit the seductive influence of an old vintage upon the narrator for the beginning of it, and my own skeptical incredulity during the days that followed for the balance of the strange tale.&lt;/p&gt;
+
+&lt;p&gt;When my convivial host discovered that he had told me so much, and that I was prone to doubtfulness, his foolish pride assumed the task the old vintage had commenced, and so he unearthed written evidence in the form of musty manuscript, and dry official records of the British Colonial Office to support many of the salient features of his remarkable narrative.&lt;/p&gt;
+
+&lt;p&gt;I do not say the story is true, for I did not witness the happenings which it portrays, but the fact that in the telling of it to you I have taken fictitious names for the principal characters quite sufficiently evidences the sincerity of my own belief that it MAY be true.&lt;/p&gt;
+
+&lt;p&gt;The yellow, mildewed pages of the diary of a man long dead, and the records of the Colonial Office dovetail perfectly with the narrative of my convivial host, and so I give you the story as I painstakingly pieced it out from these several various agencies.&lt;/p&gt;
+
+&lt;p&gt;If you do not find it credible you will at least be as one with me in acknowledging that it is unique, remarkable, and interesting.&lt;/p&gt;
+
+&lt;p&gt;From the records of the Colonial Office and from the dead man’s diary we learn that a certain young English nobleman, whom we shall call John Clayton, Lord Greystoke, was commissioned to make a peculiarly delicate investigation of conditions in a British West Coast African Colony from whose simple native inhabitants another European power was known to be recruiting soldiers for its native army, which it used solely for the forcible collection of rubber and ivory from the savage tribes along the Congo and the Aruwimi. The natives of the British Colony complained that many of their young men were enticed away through the medium of fair and glowing promises, but that few if any ever returned to their families.&lt;/p&gt;
+
+&lt;p&gt;The Englishmen in Africa went even further, saying that these poor blacks were held in virtual slavery, since after their terms of enlistment expired their ignorance was imposed upon by their white officers, and they were told that they had yet several years to serve.&lt;/p&gt;
+
+&lt;p&gt;And so the Colonial Office appointed John Clayton to a new post in British West Africa, but his confidential instructions centered on a thorough investigation of the unfair treatment of black British subjects by the officers of a friendly European power. Why he was sent, is, however, of little moment to this story, for he never made an investigation, nor, in fact, did he ever reach his destination.&lt;/p&gt;
+
+&lt;p&gt;Clayton was the type of Englishman that one likes best to associate with the noblest monuments of historic achievement upon a thousand victorious battlefields–a strong, virile man –mentally, morally, and physically.&lt;/p&gt;
+
+&lt;p&gt;In stature he was above the average height; his eyes were gray, his features regular and strong; his carriage that of perfect, robust health influenced by his years of army training.&lt;/p&gt;
+
+&lt;p&gt;Political ambition had caused him to seek transference from the army to the Colonial Office and so we find him, still young, entrusted with a delicate and important commission in the service of the Queen.&lt;/p&gt;
+
+&lt;p&gt;When he received this appointment he was both elated and appalled. The preferment seemed to him in the nature of a well-merited reward for painstaking and intelligent service, and as a stepping stone to posts of greater importance and responsibility; but, on the other hand, he had been married to the Hon. Alice Rutherford for scarce a three months, and it was the thought of taking this fair young girl into the dangers and isolation of tropical Africa that appalled him.&lt;/p&gt;
+
+&lt;p&gt;For her sake he would have refused the appointment, but she would not have it so. Instead she insisted that he accept, and, indeed, take her with him.&lt;/p&gt;
+
+&lt;p&gt;There were mothers and brothers and sisters, and aunts and cousins to express various opinions on the subject, but as to what they severally advised history is silent.&lt;/p&gt;
+
+&lt;p&gt;We know only that on a bright May morning in 1888, John, Lord Greystoke, and Lady Alice sailed from Dover on their way to Africa.&lt;/p&gt;
+
+&lt;p&gt;A month later they arrived at Freetown where they chartered a small sailing vessel, the Fuwalda, which was to bear them to their final destination.&lt;/p&gt;
+
+&lt;p&gt;And here John, Lord Greystoke, and Lady Alice, his wife, vanished from the eyes and from the knowledge of men.&lt;/p&gt;
+
+&lt;p&gt;Two months after they weighed anchor and cleared from the port of Freetown a half dozen British war vessels were scouring the south Atlantic for trace of them or their little vessel, and it was almost immediately that the wreckage was found upon the shores of St. Helena which convinced the world that the Fuwalda had gone down with all on board, and hence the search was stopped ere it had scarce begun; though hope lingered in longing hearts for many years.&lt;/p&gt;
+
+&lt;p&gt;The Fuwalda, a barkentine of about one hundred tons, was a vessel of the type often seen in coastwise trade in the far southern Atlantic, their crews composed of the offscourings of the sea–unhanged murderers and cutthroats of every race and every nation.&lt;/p&gt;
+
+&lt;p&gt;The Fuwalda was no exception to the rule. Her officers were swarthy bullies, hating and hated by their crew. The captain, while a competent seaman, was a brute in his treatment of his men. He knew, or at least he used, but two arguments in his dealings with them–a belaying pin and a revolver–nor is it likely that the motley aggregation he signed would have understood aught else.&lt;/p&gt;
+
+&lt;p&gt;So it was that from the second day out from Freetown John Clayton and his young wife witnessed scenes upon the deck of the Fuwalda such as they had believed were never enacted outside the covers of printed stories of the sea.&lt;/p&gt;
+
+&lt;p&gt;It was on the morning of the second day that the first link was forged in what was destined to form a chain of circumstances ending in a life for one then unborn such as has never been paralleled in the history of man.&lt;/p&gt;
+
+&lt;p&gt;Two sailors were washing down the decks of the Fuwalda, the first mate was on duty, and the captain had stopped to speak with John Clayton and Lady Alice.&lt;/p&gt;
+
+&lt;p&gt;The men were working backwards toward the little party who were facing away from the sailors. Closer and closer they came, until one of them was directly behind the captain. In another moment he would have passed by and this strange narrative would never have been recorded.&lt;/p&gt;
+
+&lt;p&gt;But just that instant the officer turned to leave Lord and Lady Greystoke, and, as he did so, tripped against the sailor and sprawled headlong upon the deck, overturning the water- pail so that he was drenched in its dirty contents.&lt;/p&gt;
+
+&lt;p&gt;For an instant the scene was ludicrous; but only for an instant. With a volley of awful oaths, his face suffused with the scarlet of mortification and rage, the captain regained his feet, and with a terrific blow felled the sailor to the deck.&lt;/p&gt;
+
+&lt;p&gt;The man was small and rather old, so that the brutality of the act was thus accentuated. The other seaman, however, was neither old nor small–a huge bear of a man, with fierce black mustachios, and a great bull neck set between massive shoulders.&lt;/p&gt;
+
+&lt;p&gt;As he saw his mate go down he crouched, and, with a low snarl, sprang upon the captain crushing him to his knees with a single mighty blow.&lt;/p&gt;
+
+&lt;p&gt;From scarlet the officer’s face went white, for this was mutiny; and mutiny he had met and subdued before in his brutal career. Without waiting to rise he whipped a revolver from his pocket, firing point blank at the great mountain of muscle towering before him; but, quick as he was, John Clayton was almost as quick, so that the bullet which was intended for the sailor’s heart lodged in the sailor’s leg instead, for Lord Greystoke had struck down the captain’s arm as he had seen the weapon flash in the sun.&lt;/p&gt;
+
+&lt;p&gt;Words passed between Clayton and the captain, the former making it plain that he was disgusted with the brutality displayed toward the crew, nor would he countenance anything further of the kind while he and Lady Greystoke remained passengers.&lt;/p&gt;
+
+&lt;p&gt;The captain was on the point of making an angry reply, but, thinking better of it, turned on his heel and black and scowling, strode aft.&lt;/p&gt;
+
+&lt;p&gt;He did not care to antagonize an English official, for the Queen’s mighty arm wielded a punitive instrument which he could appreciate, and which he feared–England’s far-reaching navy.&lt;/p&gt;
+
+&lt;p&gt;The two sailors picked themselves up, the older man assisting his wounded comrade to rise. The big fellow, who was known among his mates as Black Michael, tried his leg gingerly, and, finding that it bore his weight, turned to Clayton with a word of gruff thanks.&lt;/p&gt;
+
+&lt;p&gt;Though the fellow’s tone was surly, his words were evidently well meant. Ere he had scarce finished his little speech he had turned and was limping off toward the forecastle with the very apparent intention of forestalling any further conversation.&lt;/p&gt;
+
+&lt;p&gt;They did not see him again for several days, nor did the captain accord them more than the surliest of grunts when he was forced to speak to them.&lt;/p&gt;
+
+&lt;p&gt;They took their meals in his cabin, as they had before the unfortunate occurrence; but the captain was careful to see that his duties never permitted him to eat at the same time.&lt;/p&gt;
+
+&lt;p&gt;The other officers were coarse, illiterate fellows, but little above the villainous crew they bullied, and were only too glad to avoid social intercourse with the polished English noble and his lady, so that the Claytons were left very much to themselves.&lt;/p&gt;
+
+&lt;p&gt;This in itself accorded perfectly with their desires, but it also rather isolated them from the life of the little ship so that they were unable to keep in touch with the daily happenings which were to culminate so soon in bloody tragedy.&lt;/p&gt;</content><author><name>Edgar Rice Burroughs</name></author><category term="fiction" /><summary type="html">I had this story from one who had no business to tell it to me, or to any other. I may credit the seductive influence of an old vintage upon the narrator for the beginning of it, and my own skeptical incredulity during the days that followed for the balance of the strange tale.</summary></entry><entry><title type="html">Looking-Glass house</title><link href="/looking-glass-house" rel="alternate" type="text/html" title="Looking-Glass house" /><published>1871-03-18T10:18:00+00:00</published><updated>1871-03-18T10:18:00+00:00</updated><id>/looking-glass-house</id><content type="html" xml:base="/looking-glass-house">&lt;p&gt;One thing was certain, that the white kitten had had nothing to do with it:— it was the black kitten’s fault entirely. For the white kitten had been having its face washed by the old cat for the last quarter of an hour (and bearing it pretty well, considering); so you see that it couldn’t have had any hand in the mischief.
+The way Dinah washed her children’s faces was this: first she held the poor thing down by its ear with one paw, and then with the other paw she rubbed its face all over, the wrong way, beginning at the nose: and just now, as I said, she was hard at work on the white kitten, which was lying quite still and trying to purr — no doubt feeling that it was all meant for its good.
+But the black kitten had been finished with earlier in the afternoon, and so, while Alice was sitting curled up in a corner of the great arm-chair, half talking to herself and half asleep, the kitten had been having a grand game of romps with the ball of worsted Alice had been trying to wind up, and had been rolling it up and down till it had all come undone again; and there it was, spread over the hearth-rug, all knots and tangles, with the kitten running after its own tail in the middle.&lt;/p&gt;
+
+&lt;p&gt;‘Oh, you wicked little thing!’ cried Alice, catching up the kitten, and giving it a little kiss to make it understand that it was in disgrace. ‘Really, Dinah ought to have taught you better manners! You ought, Dinah, you know you ought!’ she added, looking reproachfully at the old cat, and speaking in as cross a voice as she could manage — and then she scrambled back into the arm-chair, taking the kitten and the worsted with her, and began winding up the ball again. But she didn’t get on very fast, as she was talking all the time, sometimes to the kitten, and sometimes to herself. Kitty sat very demurely on her knee, pretending to watch the progress of the winding, and now and then putting out one paw and gently touching the ball, as if it would be glad to help, if it might. ‘Do you know what to-morrow is, Kitty?’ Alice began. ‘You’d have guessed if you’d been up in the window with me — only Dinah was making you tidy, so you couldn’t. I was watching the boys getting in sticks for the bonfire — and it wants plenty of sticks, Kitty! Only it got so cold, and it snowed so, they had to leave off. Never mind, Kitty, we’ll go and see the bonfire to-morrow.’ Here Alice wound two or three turns of the worsted round the kitten’s neck, just to see how it would look: this led to a scramble, in which the ball rolled down upon the floor, and yards and yards of it got unwound again.&lt;/p&gt;
+
+&lt;p&gt;‘Do you know, I was so angry, Kitty,’ Alice went on as soon as they were comfortably settled again, ‘when I saw all the mischief you had been doing, I was very nearly opening the window, and putting you out into the snow! And you’d have deserved it, you little mischievous darling! What have you got to say for yourself? Now don’t interrupt me!’ she went on, holding up one finger. ‘I’m going to tell you all your faults. Number one: you squeaked twice while Dinah was washing your face this morning. Now you can’t deny it, Kitty: I heard you! What’s that you say?’ (pretending that the kitten was speaking.) ‘Her paw went into your eye? Well, that’s your fault, for keeping your eyes open — if you’d shut them tight up, it wouldn’t have happened. Now don’t make any more excuses, but listen! Number two: you pulled Snowdrop away by the tail just as I had put down the saucer of milk before her! What, you were thirsty, were you? How do you know she wasn’t thirsty too? Now for number three: you unwound every bit of the worsted while I wasn’t looking!
+‘That’s three faults, Kitty, and you’ve not been punished for any of them yet. You know I’m saving up all your punishments for Wednesday week — Suppose they had saved up all my punishments!’ she went on, talking more to herself than the kitten. ‘What would they do at the end of a year? I should be sent to prison, I suppose, when the day came. Or — let me see — suppose each punishment was to be going without a dinner: then, when the miserable day came, I should have to go without fifty dinners at once! Well, I shouldn’t mind that much! I’d far rather go without them than eat them! ‘Do you hear the snow against the window-panes, Kitty? How nice and soft it sounds! Just as if some one was kissing the window all over outside. I wonder if the snow loves the trees and fields, that it kisses them so gently? And then it covers them up snug, you know, with a white quilt; and perhaps it says, “Go to sleep, darlings, till the summer comes again.” And when they wake up in the summer, Kitty, they dress themselves all in green, and dance about — whenever the wind blows — oh, that’s very pretty!’ cried Alice, dropping the ball of worsted to clap her hands. ‘And I do so wish it was true! I’m sure the woods look sleepy in the autumn, when the leaves are getting brown. ‘Kitty, can you play chess? Now, don’t smile, my dear, I’m asking it seriously. Because, when we were playing just now, you watched just as if you understood it: and when I said “Check!” you purred! Well, it was a nice check, Kitty, and really I might have won, if it hadn’t been for that nasty Knight, that came wiggling down among my pieces. Kitty, dear, let’s pretend —’ And here I wish I could tell you half the things Alice used to say, beginning with her favourite phrase ‘Let’s pretend.’ She had had quite a long argument with her sister only the day before — all because Alice had begun with ‘Let’s pretend we’re kings and queens;’ and her sister, who liked being very exact, had argued that they couldn’t, because there were only two of them, and Alice had been reduced at last to say, ‘Well, you can be one of them then, and I’ll be all the rest.’ And once she had really frightened her old nurse by shouting suddenly in her ear, ‘Nurse! Do let’s pretend that I’m a hungry hyaena, and you’re a bone.’ But this is taking us away from Alice’s speech to the kitten. ‘Let’s pretend that you’re the Red Queen, Kitty! Do you know, I think if you sat up and folded your arms, you’d look exactly like her. Now do try, there’s a dear!’ And Alice got the Red Queen off the table, and set it up before the kitten as a model for it to imitate: however, the thing didn’t succeed, principally, Alice said, because the kitten wouldn’t fold its arms properly. So, to punish it, she held it up to the Looking-glass, that it might see how sulky it was —‘and if you’re not good directly,’ she added, ‘I’ll put you through into Looking-glass House. How would you like that?’
+‘Now, if you’ll only attend, Kitty, and not talk so much, I’ll tell you all my ideas about Looking-glass House. First, there’s the room you can see through the glass — that’s just the same as our drawing room, only the things go the other way. I can see all of it when I get upon a chair — all but the bit behind the fireplace. Oh! I do so wish I could see that bit! I want so much to know whether they’ve a fire in the winter: you never can tell, you know, unless our fire smokes, and then smoke comes up in that room too — but that may be only pretence, just to make it look as if they had a fire. Well then, the books are something like our books, only the words go the wrong way; I know that, because I’ve held up one of our books to the glass, and then they hold up one in the other room. ‘How would you like to live in Looking-glass House, Kitty? I wonder if they’d give you milk in there? Perhaps Looking-glass milk isn’t good to drink — But oh, Kitty! now we come to the passage. You can just see a little peep of the passage in Looking-glass House, if you leave the door of our drawing-room wide open: and it’s very like our passage as far as you can see, only you know it may be quite different on beyond. Oh, Kitty! how nice it would be if we could only get through into Looking-glass House! I’m sure it’s got, oh! such beautiful things in it! Let’s pretend there’s a way of getting through into it, somehow, Kitty. Let’s pretend the glass has got all soft like gauze, so that we can get through. Why, it’s turning into a sort of mist now, I declare! It’ll be easy enough to get through —’ She was up on the chimney-piece while she said this, though she hardly knew how she had got there. And certainly the glass was beginning to melt away, just like a bright silvery mist.&lt;/p&gt;
+
+&lt;p&gt;In another moment Alice was through the glass, and had jumped lightly down into the Looking-glass room. The very first thing she did was to look whether there was a fire in the fireplace, and she was quite pleased to find that there was a real one, blazing away as brightly as the one she had left behind. ‘So I shall be as warm here as I was in the old room,’ thought Alice: ‘warmer, in fact, because there’ll be no one here to scold me away from the fire. Oh, what fun it’ll be, when they see me through the glass in here, and can’t get at me!’&lt;/p&gt;
+
+&lt;p&gt;Then she began looking about, and noticed that what could be seen from the old room was quite common and uninteresting, but that all the rest was as different as possible. For instance, the pictures on the wall next the fire seemed to be all alive, and the very clock on the chimney-piece (you know you can only see the back of it in the Looking-glass) had got the face of a little old man, and grinned at her.
+‘They don’t keep this room so tidy as the other,’ Alice thought to herself, as she noticed several of the chessmen down in the hearth among the cinders: but in another moment, with a little ‘Oh!’ of surprise, she was down on her hands and knees watching them. The chessmen were walking about, two and two!&lt;/p&gt;
+
+&lt;p&gt;‘Here are the Red King and the Red Queen,’ Alice said (in a whisper, for fear of frightening them), ‘and there are the White King and the White Queen sitting on the edge of the shovel — and here are two castles walking arm in arm — I don’t think they can hear me,’ she went on, as she put her head closer down, ‘and I’m nearly sure they can’t see me. I feel somehow as if I were invisible —’ Here something began squeaking on the table behind Alice, and made her turn her head just in time to see one of the White Pawns roll over and begin kicking: she watched it with great curiosity to see what would happen next.
+‘It is the voice of my child!’ the White Queen cried out as she rushed past the King, so violently that she knocked him over among the cinders. ‘My precious Lily! My imperial kitten!’ and she began scrambling wildly up the side of the fender. ‘Imperial fiddlestick!’ said the King, rubbing his nose, which had been hurt by the fall. He had a right to be a little annoyed with the Queen, for he was covered with ashes from head to foot. Alice was very anxious to be of use, and, as the poor little Lily was nearly screaming herself into a fit, she hastily picked up the Queen and set her on the table by the side of her noisy little daughter.
+The Queen gasped, and sat down: the rapid journey through the air had quite taken away her breath and for a minute or two she could do nothing but hug the little Lily in silence. As soon as she had recovered her breath a little, she called out to the White King, who was sitting sulkily among the ashes, ‘Mind the volcano!’
+‘What volcano?’ said the King, looking up anxiously into the fire, as if he thought that was the most likely place to find one. ‘Blew — me — up,’ panted the Queen, who was still a little out of breath. ‘Mind you come up — the regular way — don’t get blown up!’ Alice watched the White King as he slowly struggled up from bar to bar, till at last she said, ‘Why, you’ll be hours and hours getting to the table, at that rate. I’d far better help you, hadn’t I?’ But the King took no notice of the question: it was quite clear that he could neither hear her nor see her.
+So Alice picked him up very gently, and lifted him across more slowly than she had lifted the Queen, that she mightn’t take his breath away: but, before she put him on the table, she thought she might as well dust him a little, he was so covered with ashes.&lt;/p&gt;
+
+&lt;p&gt;She said afterwards that she had never seen in all her life such a face as the King made, when he found himself held in the air by an invisible hand, and being dusted: he was far too much astonished to cry out, but his eyes and his mouth went on getting larger and larger, and rounder and rounder, till her hand shook so with laughing that she nearly let him drop upon the floor.
+‘Oh! please don’t make such faces, my dear!’ she cried out, quite forgetting that the King couldn’t hear her. ‘You make me laugh so that I can hardly hold you! And don’t keep your mouth so wide open! All the ashes will get into it — there, now I think you’re tidy enough!’ she added, as she smoothed his hair, and set him upon the table near the Queen. The King immediately fell flat on his back, and lay perfectly still: and Alice was a little alarmed at what she had done, and went round the room to see if she could find any water to throw over him. However, she could find nothing but a bottle of ink, and when she got back with it she found he had recovered, and he and the Queen were talking together in a frightened whisper — so low, that Alice could hardly hear what they said.
+The King was saying, ‘I assure, you my dear, I turned cold to the very ends of my whiskers!’
+To which the Queen replied, ‘You haven’t got any whiskers.’
+‘The horror of that moment,’ the King went on, ‘I shall never, never forget!’ ‘You will, though,’ the Queen said, ‘if you don’t make a memorandum of it.’ Alice looked on with great interest as the King took an enormous memorandum-book out of his pocket, and began writing. A sudden thought struck her, and she took hold of the end of the pencil, which came some way over his shoulder, and began writing for him.
+The poor King looked puzzled and unhappy, and struggled with the pencil for some time without saying anything; but Alice was too strong for him, and at last he panted out, ‘My dear! I really must get a thinner pencil. I can’t manage this one a bit; it writes all manner of things that I don’t intend —’
+‘What manner of things?’ said the Queen, looking over the book (in which Alice had put ‘the White Knight is sliding down the poker. He balances very badly’) ‘That’s not a memorandum of your feelings!’&lt;/p&gt;</content><author><name>Lewis Carroll</name></author><category term="fiction" /><summary type="html">One thing was certain, that the white kitten had had nothing to do with it:— it was the black kitten’s fault entirely. For the white kitten had been having its face washed by the old cat for the last quarter of an hour (and bearing it pretty well, considering); so you see that it couldn’t have had any hand in the mischief. The way Dinah washed her children’s faces was this: first she held the poor thing down by its ear with one paw, and then with the other paw she rubbed its face all over, the wrong way, beginning at the nose: and just now, as I said, she was hard at work on the white kitten, which was lying quite still and trying to purr — no doubt feeling that it was all meant for its good. But the black kitten had been finished with earlier in the afternoon, and so, while Alice was sitting curled up in a corner of the great arm-chair, half talking to herself and half asleep, the kitten had been having a grand game of romps with the ball of worsted Alice had been trying to wind up, and had been rolling it up and down till it had all come undone again; and there it was, spread over the hearth-rug, all knots and tangles, with the kitten running after its own tail in the middle.</summary></entry></feed>

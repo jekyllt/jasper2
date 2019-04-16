@@ -2,30 +2,26 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/jasper2/tag/speeches/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="/jasper2/" rel="alternate" type="text/html" />
-  <updated>2019-03-14T12:15:42+00:00</updated>
-  <id>/jasper2/tag/speeches/feed.xml</id>
+  <link href="/tag/speeches/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-04-16T00:27:52+00:00</updated>
+  <id>/tag/speeches/feed.xml</id>
 
   
   
   
 
   
-    <title type="html">Ghost | </title>
+    <title type="html">SEA Lab | </title>
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>Software Engineering and Analytics Laboratory</subtitle>
   
 
   
 
   
-    
-      
-    
-      
     
       
     
@@ -45,11 +41,11 @@
   
     <entry>
       <title type="html">I Have a Dream</title>
-      <link href="/jasper2/i-have-a-dream" rel="alternate" type="text/html" title="I Have a Dream" />
+      <link href="/i-have-a-dream" rel="alternate" type="text/html" title="I Have a Dream" />
       <published>1963-08-28T10:18:00+00:00</published>
       <updated>1963-08-28T10:18:00+00:00</updated>
-      <id>/jasper2/i-have-a-dream</id>
-      <content type="html" xml:base="/jasper2/i-have-a-dream">&lt;p&gt;I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.&lt;/p&gt;
+      <id>/i-have-a-dream</id>
+      <content type="html" xml:base="/i-have-a-dream">&lt;p&gt;I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.&lt;/p&gt;
 
 &lt;p&gt;Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity.&lt;/p&gt;
 
@@ -171,11 +167,11 @@
   
     <entry>
       <title type="html">The Purpose of Education</title>
-      <link href="/jasper2/the-purpose-of-education" rel="alternate" type="text/html" title="The Purpose of Education" />
+      <link href="/the-purpose-of-education" rel="alternate" type="text/html" title="The Purpose of Education" />
       <published>1948-12-12T10:18:00+00:00</published>
       <updated>1948-12-12T10:18:00+00:00</updated>
-      <id>/jasper2/the-purpose-of-education</id>
-      <content type="html" xml:base="/jasper2/the-purpose-of-education">&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
+      <id>/the-purpose-of-education</id>
+      <content type="html" xml:base="/the-purpose-of-education">&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
 
 &lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
 
