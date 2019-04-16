@@ -14,7 +14,7 @@ author: campey
 Free coding clubs for young people, practicing coding from first steps through projects.
 
  * [coderdojo.com](https://coderdojo.com/)
- * [Cape Town dojo page](https://zen.coderdojo.com/dojos/za/western-cape/cape-town-western-cape/cape-town)
+ * [Map & links to CoderDojos in Cape Town](https://zen.coderdojo.com/find?q=cape%20town&p=1)
 
 | Audience | 7-17 year olds |
 | Local history | Started in 2012, class run with 1-20 kids per week ever since |
