@@ -88,6 +88,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - package.json
+  - package-lock.json
   - Rakefile
   - README.md
   - script.py
