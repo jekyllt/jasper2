@@ -34,9 +34,9 @@ This is a full-featured port of Ghost's default theme [Casper](https://github.co
 ### Deployment
 
 **Important:**  For security reasons, Github does not allow plugins (under `_plugins/`) when
-deploying with Github Pages. This means:
+deploying with Github Pages. This means that we have to do one of the following:
 
-**1)** that we need to generate your site locally (more details below) and push the resulting
+**1)** generate the site locally (more details below) and push the resulting
 HTML (the contents of `_site/` or `../jasper2-pages/`) to a Github repository, that GitHub Pages
 then host;
 
