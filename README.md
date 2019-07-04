@@ -40,7 +40,7 @@ deploying with Github Pages. This means that we have to do one of the following:
 HTML (the contents of `_site/` or `../jasper2-pages/`) to a Github repository, that GitHub Pages
 then host;
 
-**2)** built the site with [travis-ci](https://travis-ci.org/) (with goodies from
+**2)** build the site with [travis-ci](https://travis-ci.org/) (with goodies from
 [jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the
 generated HTML files to a *gh-pages* branch.
 This later approach is the one I am currently using to generate the live demo.

@@ -55,7 +55,7 @@ feed:
 # Disqus comments as a per-post basis
 # ...
 
-# Settings for builing master branch with travis-ci
+# Settings for building master branch with travis-ci
 # with jekyll-travis
 
 # Settings for deploy rake task
