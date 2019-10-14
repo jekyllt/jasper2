@@ -11,8 +11,8 @@ baseurl: /
 title: CoderLevelUp
 description: Levelling up our coding community, in Africa.
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
+logo: assets/images/CoderLevelUp.png
+logo_dark: assets/images/CoderLevelUp-dark.png
 favicon: assets/images/favicon.png
 production_url: https://coderlevelup.org/
 source_url: https://github.com/coderlevelup/jasper2/
