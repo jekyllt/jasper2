@@ -11,7 +11,7 @@ baseurl: /
 title: CoderLevelUp
 description: Levelling up our coding community, in Africa.
 cover: assets/images/blog-cover.jpg
-large_logo: assets/images/CoderLevelUp-group.png
+large_logo: assets/images/CoderLevelUp-group-dark.png
 nav_logo: assets/images/CoderLevelUp-header.png
 logo: assets/images/CoderLevelUp-dark.png
 logo_dark: assets/images/favicon.png
