@@ -9,9 +9,11 @@ tags: [coderetreat]
 class: post-template
 subclass: 'post tag-getting-started'
 author: campey
+excerpt_separator: <!--more-->
 ---
 
 Day-long event pair programming with new people sharing practices and perfect practice.
+<!--more-->
 
  * [coderetreat.org](https://www.coderetreat.org/)
  * [tweets](https://twitter.com/search?q=coderetreat%20%40davidcampey)

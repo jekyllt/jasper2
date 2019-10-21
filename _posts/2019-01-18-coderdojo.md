@@ -9,11 +9,14 @@ tags: [coderdojo]
 class: post-template
 subclass: 'post tag-getting-started'
 author: campey
+excerpt_separator: <!--more-->
 ---
 
 Free coding clubs for young people, practicing coding from first steps through projects.
 
 Coder:LevelUp is the regional growth partner for the CoderDojo Foundation.
+
+<!--more-->
 
  * [coderdojo.com](https://coderdojo.com/)
  * [Map & links to CoderDojos in Cape Town](https://zen.coderdojo.com/find?q=cape%20town&p=1)
