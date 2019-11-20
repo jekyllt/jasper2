@@ -9,10 +9,10 @@ words_per_minute: 200
 baseurl: /everdigital
 
 # Website info
-title: Ghost
-description: The professional publishing platform
-cover: /assets/images/blog-cover.jpg
-logo: /assets/images/blog-icon.png
+title: AW
+description: A digital strategy consultant
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url: https://alistairswilson.com
@@ -73,7 +73,7 @@ username: alistairwilson
 repo: everdigital
 branch: master
 relative_source: ../everdigital/
-destination: ../jasper2-pages/
+destination: #../jasper2-pages/
 production_url:  https://alistairswilson.com
 source_url:  https://github.com/alistairwilson/everdigital/
 
