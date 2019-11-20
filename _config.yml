@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: https://alistairswilson.com
 
 # Website info
 title: Ghost
@@ -24,8 +24,8 @@ navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: alistairswilson # replace by your username
+facebook: # replace by your username
 
 # Disqus
 disqus: False
@@ -73,7 +73,7 @@ username: alistairwilson
 repo: everdigital
 branch: master
 relative_source: ../everdigital/
-destination: ../jasper2-pages/
+destination: #../jasper2-pages/
 production_url:  https://alistairswilson.com
 source_url:  https://github.com/alistairwilson/everdigital/
 
