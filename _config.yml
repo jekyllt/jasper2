@@ -21,7 +21,7 @@ CNAME: #add cname for website to be created
 
 # Social info
 navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
+subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
 twitter: alistairswilson # replace by your username
@@ -72,8 +72,8 @@ lsi: False
 username: alistairwilson
 repo: everdigital
 branch: master
-relative_source: ../everdigital/
-destination: #../jasper2-pages/
+relative_source: /everdigital/
+destination: ../everdigital-pages/
 production_url:  https://alistairswilson.com
 source_url:  https://github.com/alistairwilson/everdigital/
 
