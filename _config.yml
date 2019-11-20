@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: https://alistairswilson.com
+baseurl: /everdigital
 
 # Website info
 title: Ghost
@@ -73,7 +73,7 @@ username: alistairwilson
 repo: everdigital
 branch: master
 relative_source: ../everdigital/
-destination: #../jasper2-pages/
+destination: ../jasper2-pages/
 production_url:  https://alistairswilson.com
 source_url:  https://github.com/alistairwilson/everdigital/
 
