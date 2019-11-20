@@ -73,7 +73,7 @@ username: alistairwilson
 repo: everdigital
 branch: master
 relative_source: /everdigital/
-destination: /everdigital-pages/
+destination: ../everdigital-pages/
 production_url:  https://alistairswilson.com
 source_url:  https://github.com/alistairwilson/everdigital
 
