@@ -3,6 +3,7 @@ layout: post
 current: post
 cover: assets/images/sky.jpg
 navigation: True
+published: true
 title: I am dreaming!
 date: 2019-11-20 13:10:13
 tags: speeches, dreaming, testing, perusing
