@@ -41,7 +41,7 @@ To test locally, simply clone this repository (*master branch*), and then run
 
 We have set up travis-ci for this  fork.
 Changed details in *[\_config.yml](_config.yml)* so that we can push
-to the github repo. Generated a secure key added to
+to the github repo. Generate a secure key added to
 *[.travis.yml](.travis.yml)*.
 Documentation from
 [jekyll-travis](https://github.com/mfenner/jekyll-travis). 
