@@ -31,9 +31,9 @@ into the {body} of the default.hbs template -->
                         <span class="date-divider">/</span>
                         {% for tag in page.tags %}
                             {% if forloop.index == page.tags.size %}
-                               <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>
+                               <a href='{{ site.baseurl }}tag/{{ tag | slugify: "latin" }}/'>{{ tag | upcase }}</a>
                             {% else %}
-                               <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>,
+                               <a href='{{ site.baseurl }}tag/{{ tag | slugify: "latin" }}/'>{{ tag | upcase }}</a>,
                             {% endif %}
                         {% endfor %}
                     {% endif %}
@@ -139,7 +139,7 @@ into the {body} of the default.hbs template -->
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; {{ site.title }} &mdash;</small>
                             {% if primary %}
-                                <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | capitalize }}</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}tag/{{ primary | slugify: "latin" }}/">{{ primary | capitalize }}</a></h3>
                             {% endif %}
                         </header>
                         <div class="read-next-divider">{% include infinity.html %}</div>
@@ -159,7 +159,7 @@ into the {body} of the default.hbs template -->
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">
+                            <a href="{{ site.baseurl }}tag/{{ primary | slugify: "latin" }}/">
                                 {% if related_posts > 1 %}
                                     See all {{ related_posts | minus: 1 }} posts  →
                                 {% elsif related_posts == 1 %}
