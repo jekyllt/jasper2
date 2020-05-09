@@ -22,7 +22,7 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full {{ page.subclass }} {% unless page.cover %}no-image{% endunless %}">
+        <article class="post-full {% if page.tags.size > 0 %}{% for tag in page.tags %} tag-{{ tag | slugify: "latin" }}{% endfor %}{% endif %} {{ page.subclass }} {% unless page.cover %}no-image{% endunless %}">
 
             <header class="post-full-header">
                 <h1 class="post-full-title">{{ page.title }}</h1>
