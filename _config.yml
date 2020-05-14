@@ -15,8 +15,6 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://jekyller.github.io/jasper2/
-source_url: https://github.com/jekyller/jasper2/
 CNAME: #add cname for website to be created
 
 # Social info
@@ -57,7 +55,7 @@ feed:
 # Disqus comments as a per-post basis
 # ...
 
-# Settings for builing master branch with travis-ci
+# Settings for building master branch with travis-ci
 # with jekyll-travis
 
 # Settings for deploy rake task
@@ -88,6 +86,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - package.json
+  - package-lock.json
   - Rakefile
   - README.md
   - script.py
