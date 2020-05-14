@@ -1,7 +1,7 @@
 <!-- dynamically fixing the title for tag/author pages -->
 {% if page.url %}
   {% if page.url contains "tag/" %}
-      {% assign title = page.url | remove: 'tag' | remove: '/' | replace: '-', ' ' | capitalizeall %}
+      {% assign title = page.url | remove: 'tag' | remove: '/' | url_decode | replace: '-', ' ' | capitalizeall %}
   {% elsif page.url contains "author/" %}
       {% assign username = page.url | remove: 'author' | remove: '/' | replace: '-', ' ' | remove: ' ' %}
       {% for author in site.data.authors %}
