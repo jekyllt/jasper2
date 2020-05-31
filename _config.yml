@@ -29,9 +29,6 @@ facebook: ghost # replace by your username
 disqus: False
 disqus_shortname: jekyller # replace with your disqus username
 
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
 # Permalinks
 permalink: /:title
 # permalink: /author/:author
