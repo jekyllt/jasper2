@@ -22,10 +22,10 @@
                     <h2 class="post-card-title">{{ page.next.title }}</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    {% if post.excerpt %}
-                        <p>{{ post.excerpt | strip_html | truncatewords: 33, "" }}</p>
+                    {% if page.next.excerpt %}
+                        <p>{{ page.next.excerpt | strip_html | truncatewords: 33, "" }}</p>
                     {% else %}
-                        <p>{{ post.content | strip_html | truncatewords: 33, "" }}</p>
+                        <p>{{ page.next.content | strip_html | truncatewords: 33, "" }}</p>
                     {% endif %}
                 </section>
             </a>
@@ -41,7 +41,7 @@
                     {% endif %}
                 {% endfor %}
                 <span class="reading-time">
-                    {% assign words = post.content | strip_html | number_of_words %}
+                    {% assign words = page.next.content | strip_html | number_of_words %}
                     {% if words <= words_per_minute %}
                       1 min read
                     {% else %}
