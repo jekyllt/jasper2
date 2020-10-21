@@ -116,6 +116,12 @@ production stylesheet in assets/built/screen.css
     box-shadow: #f4f8fb 0 0 0 5px;
 }
 
+.highlighter-rouge {
+    overflow-x: auto;
+    max-width: 100%;
+    min-width: 100%;
+}
+
 figure.highlight,
 .highlight pre,
 .highlight code,
