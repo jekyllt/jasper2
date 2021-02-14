@@ -68,9 +68,9 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyller
-repo: jasper2
-branch: master
+username: motilalmeher
+repo: motilalmeher.github.io
+branch: dev
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
 production_url:  https://jekyller.github.io/jasper2/
