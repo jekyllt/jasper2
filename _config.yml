@@ -9,10 +9,11 @@ words_per_minute: 200
 baseurl: /jasper2/
 
 # Website info
-title: Ghost
-description: The professional publishing platform
+title: Motilal
+description: Data Science|Design Thinking|Storytelling
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
+logo: assets/images/motilal-meher-photo.jpg
+#logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 CNAME: #add cname for website to be created
