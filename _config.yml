@@ -73,8 +73,8 @@ repo: motilalmeher.github.io
 branch: dev
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
-production_url:  https://jekyller.github.io/jasper2/
-source_url:  https://github.com/jekyller/jasper2/
+production_url:  https://motilalmeher.github.io/jasper2/
+source_url:  https://motilalmeher.com/jekyller/jasper2/
 
 exclude:
   - assets/css
