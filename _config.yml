@@ -71,10 +71,11 @@ lsi: False
 username: motilalmeher
 repo: motilalmeher.github.io
 branch: dev
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
-production_url:  https://motilalmeher.github.io/jasper2/
-source_url:  https://motilalmeher.com/jekyller/jasper2/
+relative_source: ../motilalmeher.github.io
+destination: ../_site/
+production_url:  https://motilalmeher.github.io
+source_url:  https://github.com/motilalmeher/motilalmeher.github.io
+destination_url: https://www.motilalmeher.com/
 
 exclude:
   - assets/css
