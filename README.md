@@ -5,7 +5,7 @@
 [![Jekyll](https://img.shields.io/badge/jekyll-3.7.4-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
 
 This is a full-featured port of Ghost's default theme [Casper](https://github.com/tryghost/casper)
-*v2.1.9* for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
+[v2.1.9](https://github.com/TryGhost/Casper/releases/tag/2.1.9) for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
 
 ## Live Demo
 
@@ -33,27 +33,29 @@ This is a full-featured port of Ghost's default theme [Casper](https://github.co
 
 ### Deployment
 
-**Important:**  For security reasons, Github does not allow plugins (under `_plugins/`) when
-deploying with Github Pages. This means that we have to do one of the following:
+There are several alternatives to building and deploying the site:
 
-**1)** generate the site locally (more details below) and push the resulting
-HTML (the contents of `_site/` or `../jasper2-pages/`) to a Github repository, that GitHub Pages
-then host;
+1. build the site with [GitHub Actions](https://github.com/features/actions) which pushes 
+the resulting files (the contents of `_site/` or `../jasper2-pages/`) 
+to the *gh-pages* branch. This is the approach that is currently used. See 
+[jekyll_build.yml](.github/workflows/jekyll_build.yml) for more details.
 
-**2)** build the site with [travis-ci](https://travis-ci.org/) (with goodies from
+2. generate the site locally (more details below) and push the resulting
+HTML to a Github repository, that GitHub Pages then host;
+
+3. build the site with [travis-ci](https://travis-ci.org/) (with goodies from
 [jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the
 generated HTML files to a *gh-pages* branch.
-This later approach is the one I am currently using to generate the live demo.
 
-**3)** deploy the static website with Jekyll-compatible hosters, such as https://www.netlify.com/, that allow for deployment from the Github repo and publish the website using CDNs. Netlify has a free starter offer.
+4. deploy the static website with Jekyll-compatible hosters, such as https://www.netlify.com/, that allow for deployment from the Github repo and publish the website using CDNs. Netlify has a free starter offer.
 
-For option **1)** simply clone this repository (*master branch*), and then run
+For option **2)** simply clone this repository (*master branch*), and then run
 `bundle exec jekyll serve` inside the directory. Upload the resulting `_site/` (or `../jasper2-pages/`)
 contents to your repository (*master branch* if uploading as your personal page
 (e.g. username.github.io) or *gh-pages branch* if uploading as a project page
 (as for the [demo](https://github.com/jekyller/jasper2/tree/gh-pages)).
 
-For option **2)** you will need to set up travis-ci for your personal fork. Briefly all you
+For option **3)** you will need to set up travis-ci for your personal fork. Briefly all you
 need then is to change your details in *[\_config.yml](_config.yml)* so that you can push
 to your github repo. You will also need to generate a secure key to add to your
 *[.travis.yml](.travis.yml)* (you can find more info on how to do it in that file).
@@ -86,7 +88,7 @@ Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/
 
 ## Issues and Contributing
 
-This install builds well with Ruby v2.5.1 and Jekyll v3.7.4. If you run into any problems
+This install builds well with Ruby v2.6.3 and Jekyll v3.9.0. If you run into any problems
 please log them on the [issue tracker](https://github.com/jekyller/jasper2/issues).
 
 Feel free pull-request your patches and fixes.
