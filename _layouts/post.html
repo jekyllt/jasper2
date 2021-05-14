@@ -95,9 +95,9 @@ into the {body} of the default.hbs template -->
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            this.page.url = '{{ site.url }}{{ page.url }}';
-                            this.page.identifier = '{{ page.id }}';
-                            this.page.title = '{{ page.title }}';
+                            var this_page_url = '{{ site.url }}{{ page.url }}';
+                            var this_page_identifier = '{{ page.id }}';
+                            var this_page_title = '{{ page.title }}';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
