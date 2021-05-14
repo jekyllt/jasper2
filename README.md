@@ -1,6 +1,6 @@
 ## Jasper2
 
-![Build Status](https://github.com/jekyller/jasper2/actions/workflows/jekyll_build.yml/badge.svg)
+[![Build Status](https://github.com/jekyller/jasper2/actions/workflows/jekyll_build.yml/badge.svg)](https://github.com/jekyller/jasper2/actions/workflows/jekyll_build.yml)
 [![Ruby](https://img.shields.io/badge/ruby-2.6.3-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
 [![Jekyll](https://img.shields.io/badge/jekyll-3.9.0-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
 
@@ -94,7 +94,6 @@ please log them on the [issue tracker](https://github.com/jekyller/jasper2/issue
 Feel free pull-request your patches and fixes.
 
 ## Thanks
-
 
 Many thanks to the Ghost team for all the design work. Also many thanks to all contributors,
 that help keeping the project alive and updated :smile:
