@@ -15,8 +15,10 @@ I work with Senior Leaders, Product Managers and Engineers across the enterprise
 
  > A continuous learner with extensive experience in the adoption and execution of cloud, mobile and data technologies.
 
-I am passionate about leading teams and organizations on their journey to adopting processes, frameworks, and new technology while achieving positive business outcomes. From concept and proof of value to business case and execution, all starting from a solid foundation of Mobile / Cloud / Data to IoT, Machine Learning, AI, XR, Biometrics, Blockchain and Robotics.
+I am passionate about leading teams and organizations on their journey to adopting processes, frameworks, and new technology while achieving positive business outcomes. From concept and proof of value to business case and execution, starting from a solid technical foundation of Mobile, Cloud, and Data.
 
-Specialties: Enterprise Architecture, Executing Enterprise Technical Strategies, Solution Architecture, Mobile, Cloud, Data, Services, IoT, Technology Adoption, Team Building, Strategic Leadership, Process Improvement.
+Specialties: Enterprise Architecture, Executing Enterprise Technical Strategies, Solution Architecture, Technology Adoption, Team Building, Strategic Leadership, Process Improvement.
+
+Technologies: Mobile, Cloud, Data, Services, IoT, Machine Learning, AI, XR, Biometrics, Blockchain and Robotics.
 
 This site allows me to share information about current, past and future projects, as well as my passion for travel, which serves as a continuous journey for the soul.
