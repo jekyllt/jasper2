@@ -3,15 +3,17 @@ layout: page
 current: about
 title: About
 navigation: true
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/personal/MikelorHackathonProfile.png'
 class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+From my early days as a software engineer, I've demonstrated a solid track record in executing change through real deliverables. Passionate about leading organizations and teams on their journey to adopting processes, frameworks, and new technology while achieving positive business outcomes. 
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
+I work with Senior Leaders, Product Managers and Engineers across the enterprise to apply emerging technology and trends to address business challenges and create new opportunities.
 
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
+Specialties: Enterprise Architecture, Executing Enterprise Technical Strategies, Solution Architecture, Mobile, Cloud, Data, Services, IoT, Technology Adoption, Team Building, Strategic Leadership, Process Improvement.
 
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+ > A continuous learner with extensive experience in the adoption and execution of cloud, mobile and data technologies.
+
+This site allows me to share information about current, past and future projects, as well as my passion for travel, which serves as a continuous journey for the soul.
