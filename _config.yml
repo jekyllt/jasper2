@@ -2,12 +2,11 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
-language: 'en-uk'
+language: 'en-us'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
-
+baseurl: /
 # Website info
 title: Ghost
 description: The professional publishing platform
@@ -67,13 +66,13 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyller
-repo: jasper2
+username: mikelor
+repo: mikelor.github.io
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
-production_url:  https://jekyller.github.io/jasper2/
-source_url:  https://github.com/jekyller/jasper2/
+relative_source: ../
+destination: ../
+production_url:  https://mikelor.github.io/
+source_url:  https://github.com/mikelor/mikelor.github.io/
 
 exclude:
   - assets/css
