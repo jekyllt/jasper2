@@ -67,7 +67,7 @@ feed:
 safe: False
 lsi: False
 username: mikelor
-repo: mikelor.github.io
+repo: mikelor.github.io/
 branch: master
 relative_source: ../
 destination: ../
