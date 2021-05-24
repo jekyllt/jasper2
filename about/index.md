@@ -3,7 +3,7 @@ layout: page
 current: about
 title: About
 navigation: true
-logo: 'assets/images/personal/MikelorProfileHackathon.png'
+logo: assets/images/personal/MikelorProfileHackathon.png
 class: page-template
 subclass: 'post page'
 author: mikelor
