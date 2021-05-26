@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version       = '0.1.0'
   s.authors       = ['Fábio Madeira', 'Contributors']
   s.email         = ['biomadeira@icloud.com']
-  s.homepage      = 'https://github.com/jekyller/jasper2'
+  s.homepage      = 'https://github.com/jekyllt/jasper2'
   s.summary       = "This is a full-featured port of Ghost's default theme Casper v2 for Jekyll"
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
