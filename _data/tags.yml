@@ -14,3 +14,8 @@ getting-started:
   name: getting-started
   description: False
   cover: False
+travelogue:
+  name: travelogue
+  description: A series of posts based on specific travel journeys.
+  cover: assets/images/fables.jpg
+  
