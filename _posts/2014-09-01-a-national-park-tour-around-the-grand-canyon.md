@@ -1,14 +1,14 @@
 ---
 layout: post
 current: post
-cover: assets/images/water.jpg
+cover: assets/images/travelogue/parktourcover.jpg
 navigation: True
-title: A National Partk Tour Around the Crand Canyon
+title: A National Partk Tour Around the Grand Canyon
 date: 2014-09-01 10:18:00
 tags: travelogue
 class: post-template
 subclass: 'post'
-logo: assets/images/travelogue/parktourcover.jpg
+logo: assets/images/ghost.png
 author: mikelor
 ---
 In August of 2014, we took a road trip to get a taste of the National Parks in and around Utah and Arizona. The purpose was to scout out where we would want to return and spend more time on a future trip.
