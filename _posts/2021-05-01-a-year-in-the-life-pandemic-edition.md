@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/travel/pandemiicCover.jpg
+cover: assets/images/travel/pandemicCover.jpg
 navigation: True
 title: A Year in the Life (Pandemic Edition)
 date: 2021-05-01 12:00:00
@@ -11,8 +11,6 @@ subclass: 'post'
 logo: assets/images/ghost.png
 author: mikelor
 ---
-In August of 2014, we took a road trip to get a taste of the National Parks in and around Utah and Arizona. The purpose was to scout out where we would want to return and spend more time on a future trip.
-
 A little over a year ago (F), I was preparing to speak at the xx [2020 Innovation@Airports Conference](https://airportscouncil.org/conference/2020-innovation-at-airports/) as part of the Airports Council International conference series. Perhaps I'll share my session presentation at a future date, but today I want to reflect on a seemingly innocuous comment made during that session.
 
 At a prep session on Friday, January 17th, one of the organizers had mentioned that she had just come from a meeting where there was talk of closing down all commercial air traffic between the US and China. She mentione the word Coronovirus and reflected that it appeared to be on the level of SARS or the Bird Flu. All air traffic from China was now going to be directed to [a few US Domestic airports](https://www.dhs.gov/news/2020/02/02/dhs-issues-supplemental-instructions-inbound-flights-individuals-who-have-been-china).

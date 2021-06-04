@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/travelogue/parktourcover.jpg
 navigation: True
-title: A National Partk Tour Around the Grand Canyon
+title: A National Park Tour Around the Grand Canyon
 date: 2014-09-01 10:18:00
 tags: travelogue
 class: post-template
