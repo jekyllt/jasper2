@@ -5,7 +5,7 @@ cover:  assets/images/welcome.jpg
 navigation: True
 title: Getting Azure Percept Up and Running Sustainably with Moclips 
 date: 2021-06-21 12:00:00
-tags: [IoT] [Azure Percept] [Development] [Good Practices]
+tags: IoT [Azure Percept]
 class: post-template
 subclass: 'post'
 logo: assets/images/ghost.png
@@ -16,6 +16,7 @@ With the release of Azure Percept Studio and the Azure Percept Device Kit, Micro
 In this and future posts I'll share how I'm creating a more sustainable and maintainable environment for building and deploying IoT Edge based solutions using Azure Percept and its Device Kit. This post will cover creating an Azure environment for hosting these solutions in a repeatable way. Future posts will cover other aspects such as Device Updates, Continuous Integration and Deployment, Cost Optimization and potentially availability and continuity.
 
 # Azure Percept and the OOBE
+I've been working with the Azure Percept 
 
 ### There are a few things that you should know up-front:
 1. Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That's who it works best for. If you're using Ghost for some other purpose, that's fine too - but it might not be the best choice for you.
