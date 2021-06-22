@@ -1,19 +1,19 @@
-speeches:
-  name: speeches
-  description: Some of the greatest words ever spoken.
-  cover: assets/images/speeches.jpg
-fiction:
-  name: fiction
-  description: False
-  cover: False
-fables:
-  name: fables
-  description: A series of short stories that make you think.
+azure-percept:
+  name: azure-percept
+  description: A series of posts sharing my thoughts and learnings around Azure Percept Studio and the Azure Percept Device Kit.
   cover: assets/images/fables.jpg
 getting-started:
   name: getting-started
   description: False
   cover: False
+iot:
+  name: iot
+  description: A grouping of posts related to my exploration on the Internet of Things.
+  cover: assets/images/fables.jpg
+travel:
+  name: travel
+  description: A grouping of posts related to travel and the travel industry.
+  cover: assets/images/fables.jpg
 travelogue:
   name: travelogue
   description: A series of posts based on specific travel journeys.
