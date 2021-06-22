@@ -22,3 +22,5 @@ Locally in Seattle, the country's [first know case of Coronovirus](https://www.s
 I had vacation scheduled to Columbus, OH in March to watch a friend compete in "The Arnold". 
 
 At work, we launched into an aggressive marketing campaign to demonstrate the [real steps we were taking](http://web.archive.org/web/20200315035953/https://blog.alaskaair.com/coronavirus/) to keep a safe environment in-flight.
+
+https://www.nytimes.com/2013/03/03/business/alaska-airlines-flying-above-an-industrys-troubles.html
