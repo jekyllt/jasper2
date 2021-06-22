@@ -5,7 +5,7 @@ cover:  assets/images/welcome.jpg
 navigation: True
 title: Getting Azure Percept Up and Running Sustainably with Moclips 
 date: 2021-06-21 12:00:00
-tags: [Azure Percept][IoT]
+tags: [Azure Percept]
 class: post-template
 subclass: 'post'
 logo: assets/images/ghost.png
