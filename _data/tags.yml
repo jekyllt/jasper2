@@ -2,6 +2,10 @@ azure-percept:
   name: azure-percept
   description: A series of posts sharing my thoughts and learnings around Azure Percept Studio and the Azure Percept Device Kit.
   cover: assets/images/fables.jpg
+computer-vision:
+  name: computer-vision
+  description: A group of postings related to my exploration of Computer Vision.
+  cover: assets/images/fables.jpg
 getting-started:
   name: getting-started
   description: False
