@@ -11,12 +11,13 @@ subclass: 'post'
 logo: assets/images/ghost.png
 author: mikelor
 ---
-With the release of Azure Percept Studio and the Azure Percept Device Kit, Microsoft has made it easy to create and deploy AI models to edge devices. A demonstrator project can be up and running in minutes, but what if you want to build a more sustainable solution?
+With the release of Azure Percept Studio and the Azure Percept Device Kit (DK), Microsoft has made it easy to create and deploy AI models to edge devices. A demonstrator project can be up and running in minutes, but what if you want to build a more sustainable solution?
 
 In this and future posts I'll share how I'm creating a more sustainable and maintainable environment for building and deploying IoT Edge based solutions using Azure Percept and its Device Kit. This post will cover creating an Azure environment for hosting these solutions in a repeatable way. Future posts will cover other aspects such as Device Updates, Continuous Integration and Deployment, Cost Optimization and potentially availability and continuity.
 
-# Azure Percept and the OOBE
-I've been working with the Azure Percept 
+# The Azure Percept Out Of the Box Experience (OOBE) vs Sustainable Development
+The Azure Percept DK has a fantastic Out of the Box Experience
+I've been working with the Azure Percept Device Kit for the past year when it was known as [Project Santa Cruz](https://github.com/mikelor/azure-percept-private-preview). During that time, I've had to update the firmware on the device multiple times
 
 ### There are a few things that you should know up-front:
 1. Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That's who it works best for. If you're using Ghost for some other purpose, that's fine too - but it might not be the best choice for you.
