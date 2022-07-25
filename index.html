@@ -10,17 +10,19 @@ navigation: True
 into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
+<header class="site-header outer {% if page.cover or site.cover %}"
+    style="background-image:  url({{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
     <div class="inner">
         <div class="site-header-content">
             <h1 class="site-title">
                 {% if site.logo %}
-                    <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}"/>
+                <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}" />
                 {% else %}
-                    {{ site.title }}
+                <!-- {{ site.title }} -->
                 {% endif %}
             </h1>
-            <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
+            <!-- <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description
+                }}{% endif %}</h2> -->
         </div>
         {% include site-nav.html %}
     </div>
@@ -32,7 +34,7 @@ into the {body} of the default.hbs template -->
 
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {%  include post-card.html %}
+            {% include post-card.html %}
         </div>
 
     </div>
