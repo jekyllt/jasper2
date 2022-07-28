@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: /tech-blog/
 
 # Website info
 title: Supplies Tech Blog
@@ -70,7 +70,7 @@ lsi: False
 username: dean
 repo: tech-blog
 branch: master
-relative_source: ../
+relative_source: ../tech-blog/
 # destination: ../jasper2-pages/
 production_url:  https://suppliesfitness.github.io/tech-blog/
 source_url:  https://github.com/suppliesfitness/tech-blog/
