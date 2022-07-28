@@ -6,15 +6,15 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /gymboxx/
+baseurl: /
 
 # Website info
-title: Gymboxx tech blog
+title: Supplies Tech Blog
 # description: Gymboxx Fitness Tech Blog
-cover: assets/images/gymboxx-main.jpg
-# logo: assets/images/gymboxx-logo.jpeg
-logo_dark: assets/images/gymboxx-logo.jpeg
-favicon: assets/images/gymboxx-logo.jpeg
+cover: False
+# logo: assets/images/supplies-logo.png
+logo_dark: assets/images/supplies-logo-black.png
+favicon: assets/images/supplies-logo-black.png
 CNAME: #add cname for website to be created
 
 # Social info

@@ -5,7 +5,18 @@ Sue:
   url_full:  False
   url: False
   bio: Backend Developer
-  picture: assets/images/sue.jpg
+  picture: assets/images/authors/sue.jpg
+  facebook: False
+  twitter: False
+  cover: False
+Dean:
+  username: Dean
+  name: Dean
+  location: Seoul
+  url_full:  https://github.com/kimcrab
+  url: https://github.com/kimcrab
+  bio: Backend Developer
+  picture: assets/images/authors/dean.jpg
   facebook: False
   twitter: False
   cover: False
