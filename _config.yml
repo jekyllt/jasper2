@@ -11,7 +11,7 @@ baseurl: /tech-blog/
 # Website info
 title: Supplies Tech Blog
 # description: Gymboxx Fitness Tech Blog
-cover: False
+cover: assets/images/gymboxx-main.jpg
 # logo: assets/images/supplies-logo.png
 logo_dark: assets/images/supplies-logo-black.png
 favicon: assets/images/supplies-logo-black.png
